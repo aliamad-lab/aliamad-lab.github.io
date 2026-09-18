@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Veille bibliographique</title>
+    <link>https://lectures.aliamad.com</link>
+    <description>Articles, lectures cliniques et documents utiles autour de la psychiatrie.</description>
+    <language>fr</language>
+    <lastBuildDate>Fri, 18 Sep 2026 13:35:21 GMT</lastBuildDate>
+    <atom:link href="https://lectures.aliamad.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Efficacy and safety of a 4-week course of repeated subcutaneous ketamine injections for treatment-resistant depression (KADS study): randomised double-blind active-controlled trial</title>
+      <link>https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/efficacy-and-safety-of-a-4week-course-of-repeated-subcutaneous-ketamine-injections-for-treatmentresistant-depression-kads-study-randomised-doubleblind-activecontrolled-trial/FDBAEC51F0891B57F5B04C572D13DA17 Efficacy and safety of a 4-week course of repeated subcutaneous ketamine injections for treatment-resistant depression (KADS study): randomised double-blind active-controlled trial | The British Journal of Psychiatry | Cambridge Core</link>
+      <guid isPermaLink="false">10.1192/bjp.2023.79</guid>
+      <pubDate>Fri, 18 Sep 2026 12:00:00 GMT</pubDate>
+      <category>kétamine</category>
+      <category>dépression résistante</category>
+      <category>électroconvulsivothérapie</category>
+      <description>BACKGROUND : Prior trials suggest that intravenous racemic ketamine is a highly effective for treatment-resistant depression (TRD), but phase 3 trials of racemic ketamine are needed.
+
+AIMS : To assess the acute efficacy and safety of a 4-week course of subcutaneous racemic ketamine in participants with TRD. Trial registration: ACTRN12616001096448 at www.anzctr.org.au.
+
+METHOD : This phase 3, double-blind, randomised, active-controlled multicentre trial was conducted at seven mood disorders centres in Australia and New Zealand. Participants received twice-weekly subcutaneous racemic ketamine or midazolam for 4 weeks. Initially, the trial tested fixed-dose ketamine 0.5 mg/kg versus midazolam 0.025 mg/kg (cohort 1). Dosing was revised, after a Data Safety Monitoring Board recommendation, to flexible-dose ketamine 0.5-0.9 mg/kg or midazolam 0.025-0.045 mg/kg, with response-guided dosing increments (cohort 2). The primary outcome was remission (Montgomery-Åsberg Rating Scale for Depression score ≤10) at the end of week 4.
+
+RESULTS : The final analysis (those who received at least one treatment) comprised 68 in cohort 1 (fixed-dose), 106 in cohort 2 (flexible-dose). Ketamine was more efficacious than midazolam in cohort 2 (remission rate 19.6%. 2.0%; OR = 12.1, 95% CI 2.1-69.2,= 0.005), but not different in cohort 1 (remission rate 6.3%. 8.8%; OR = 1.3, 95% CI 0.2-8.2,= 0.76). Ketamine was well tolerated. Acute adverse effects (psychotomimetic, blood pressure increases) resolved within 2 h.
+
+CONCLUSIONS : Adequately dosed subcutaneous racemic ketamine was efficacious and safe in treating TRD over a 4-week treatment period. The subcutaneous route is practical and feasible.</description>
+    </item>
+    <item>
+      <title>Confirmatory efficacy and safety trial of magnetic seizure therapy versus right unilateral ultra-brief electroconvulsive therapy in depression (CREST–MST): a randomised, double-blind, non-inferiority trial in Canada and the USA</title>
+      <link>https://www.thelancet.com/journals/lanXXX/article/PIIS2215-0366(26)00060-X/fulltext</link>
+      <guid isPermaLink="false">10.1016/s2215-0366(26)00060-x</guid>
+      <pubDate>Fri, 18 Sep 2026 12:00:00 GMT</pubDate>
+      <category>électroconvulsivothérapie</category>
+      <category>magnetic-field-therapy</category>
+      <category>dépression majeure</category>
+      <description>BACKGROUND : Magnetic seizure therapy (MST) is an innovative convulsive therapy that is clinically beneficial for patients with depression and has fewer cognitive adverse effects. This trial aimed to confirm the efficacy, tolerability, and cognitive safety of MST compared with right unilateral ultra-brief pulse-width (RUL-UB) electroconvulsive therapy (ECT).
+
+METHODS : This multisite randomised, double-blind, parallel-group, non-inferiority trial was conducted at three academic centres across Canada and the USA. Participants aged 18 years and older with major depressive disorder (MDD) received treatment until they achieved remission, dropped out, or up to 21 total treatments. MST was delivered using a twin coil in a midline frontal position. Remission of depression on the Hamilton Rating Scale for Depression-24 item and worsening of autobiographical memory on the Autobiographical Memory Test (AMT) were the coprimary outcomes. The non-inferiority margin was 15% absolute difference in remission rates and AMT worsening was defined as 25% reduction, corresponding to one standard deviation reduction in performance. People with lived experience were not directly involved; the study was informed by indirect feedback from previous trials and clinical discussions with people with depression who declined ECT. The trial is registered with ClinicalTrials.gov, NCT03191058.
+
+FINDINGS : Between June 26, 2018 and March 1, 2024, 292 participants were enrolled, of whom 239 were randomly assigned and three withdrew before treatment across study sites (RUL-UB ECT: mean age 45·5 years [SD 14·8, range 18-78], 80% White, 65 [55%] female, 54 [45%] male; MST: mean age 44·5 years [SD 13·8, range 18-75], 100 [85%] White, 70 [60%] female, 47 [40%] male). Enrolment concluded before reaching the intended sample size. The difference in remission rates was 5·3% in favour of RUL-UB ECT (27·8%) compared with MST (22·5%), establishing non-inferiority of MST (Z-test p=0·048 [95% CI -4·4 to 14·9]). More RUL-UB ECT participants had worsening autobiographical memory (17·3%) compared with MST participants (2·7%; p=0·0003). 12 participants in the RUL-UB ECT group and three participants in the MST group withdrew from treatment due to non-serious adverse events.
+
+INTERPRETATION : MST showed non-inferior efficacy relative to RUL-UB ECT in achieving remission of depression, and a more favourable cognitive safety profile. Collectively, the overall risk-benefit profile of MST supports its consideration as a first-line convulsive therapy in MDD, particularly in those who refuse RUL-UB ECT.
+
+FUNDING : National Institutes of Mental Health.</description>
+    </item>
+    <item>
+      <title>Managing Sleep in Bipolar Disorder: An Overview of Pharmacological and Non‐Pharmacological Interventions</title>
+      <link>https://doi.org/10.1111/bdi.70179</link>
+      <guid isPermaLink="false">10.1111/bdi.70179</guid>
+      <pubDate>Mon, 07 Sep 2026 12:00:00 GMT</pubDate>
+      <category>trouble bipolaire</category>
+      <category>troubles du sommeil</category>
+      <category>TCC</category>
+      <description>OBJECTIVES : Sleep disturbances are common in individuals with bipolar disorder (BD) and are linked to greater symptom severity, higher relapse risk, and increased suicidality. Despite their clinical relevance, sleep problems in BD are frequently underdiagnosed and inadequately treated. This systematic review aimed to evaluate the efficacy and safety of pharmacological and non-pharmacological interventions specifically targeting sleep disturbances in BD.
+
+METHODS : We systematically searched PubMed, Embase, Web of Science, and PsycINFO for studies published until May 2025. Inclusion criteria encompassed randomized controlled trials and observational studies assessing interventions specifically targeting sleep disturbances in individuals with BD.
+
+RESULTS : Eleven studies met the inclusion criteria. Non-pharmacological interventions, particularly cognitive behavioral therapy for insomnia adapted for bipolar disorder (CBTI-BD), consistently improved sleep efficiency, latency, and total sleep time and were associated with reductions in depressive symptoms. Bright light therapy yielded mixed results, whereas the Benson Relaxation Technique showed improvements in sleep quality and emotional regulation. Among pharmacological approaches, melatonin improved circadian alignment and sleep parameters without mood destabilization. Suvorexant showed limited efficacy. Antidepressants were linked to poorer sleep quality and greater impulsivity during euthymia.
+
+CONCLUSIONS : Sleep-focused interventions, especially behavioral strategies such as CBTI-BD, appear effective and well tolerated for managing sleep disturbances in BD, primarily in euthymic and interepisode samples where they have been tested. Pharmacological interventions show more variable effects and require careful attention to tolerability and clinical stability. Because each intervention was evaluated in a single clinical phase, the available evidence cannot determine whether clinical phase or chronotype moderates treatment response; trials designed to detect such moderation are needed before individualized, phase-specific recommendations can be made.</description>
+    </item>
+    <item>
+      <title>Pediatric catatonia across diagnostic contexts: Presentation, treatment course, and factors associated with ECT use</title>
+      <link>https://www.sciencedirect.com/science/article/abs/pii/S0163834326001799</link>
+      <guid isPermaLink="false">10.1016/j.genhosppsych.2026.08.014</guid>
+      <pubDate>Sun, 06 Sep 2026 12:00:00 GMT</pubDate>
+      <category>catatonie</category>
+      <category>pediatric catatonia</category>
+      <description>Objective Catatonia in young people is increasingly recognized, but pediatric cohorts remain limited. We characterized clinical presentation and treatment course and examined factors associated with electroconvulsive therapy (ECT) use and exploratory inflammatory correlates of psychomotor dimensions. Methods We retrospectively reviewed 57 consecutive patients aged &lt;18 years treated at a tertiary referral center; one patient with a medical etiology was excluded from inferential analyses, leaving 56. DSM-5-TR signs were operationalized as hypokinetic, hyperkinetic, and parakinetic scores. Associations with ECT use were estimated using Firth penalized logistic regression. Admission neutrophil-to-lymphocyte ratio (NLR), monocyte-to-lymphocyte ratio (MLR), and systemic inflammation response index (SIRI) were examined with false-discovery-rate correction. Results Catatonia occurred across schizophrenia spectrum (n = 28), bipolar (11), depressive (11), and autism spectrum (6) disorders. ECT was used in 21 patients (37.5%). Older age, male sex, higher lorazepam-equivalent dose, and greater catatonia symptom burden were associated with ECT use. Each additional parakinetic sign was associated with higher odds of ECT use (OR 2.94, 95% CI 1.52-7.29), including after diagnostic-group adjustment; however, the parakinetic score overlapped substantially with total symptom burden, and their independent contributions could not be resolved. NLR and SIRI were associated only with the hyperkinetic score, which consisted of documented agitation. Thirty-five patients (62.5%) had a discharge CGI-catatonia score of 1. Conclusion ECT use was associated with greater catatonia symptom burden and higher parakinetic scores, but overlap between these measures and retrospective treatment selection preclude dimension-specific or causal inference. The laboratory findings were limited to agitation and require prospective confirmation.</description>
+    </item>
+    <item>
+      <title>Correlates of Implantable Port Placement in Patients Receiving Electroconvulsive Therapy</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42622601/</link>
+      <guid isPermaLink="false">https://pubmed.ncbi.nlm.nih.gov/42622601/</guid>
+      <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+      <category>ECT</category>
+      <category>catatonie</category>
+      <category>autisme</category>
+      <description></description>
+    </item>
+    <item>
+      <title>Social media use and depression across 11 years of U.S. adult data</title>
+      <link>https://doi.org/10.1038/s44184-026-00237-y</link>
+      <guid isPermaLink="false">10.1038/s44184-026-00237-y</guid>
+      <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+      <category>social-media</category>
+      <category>dépression</category>
+      <description>Controversy surrounds the relationship between social media use and depression. Prior research has relied on single datasets, narrower age groups or broad measures of screen time, leaving uncertainty about whether associations of social media use and depression were stable across repeated populations over time. Using 11 repeated cross-sectional surveys (2014–2024) of adults aged 18–70 (total N = 183,000), we examined whether social media use (SMU) was consistently associated with binary self-reported depression (SRD) and whether it contributed to classification of SRD alongside demographics and other types of media use variables. For each year, we trained balanced random forest (BRF) models and evaluated discrimination using Area Under the Receiver Operating Characteristic curve (AUROC), calibration (Brier score), and feature importances. BRF predicted SRD with accuracies between 0.71 and 0.75 and AUROCs between 0.65 and 0.73 for each of 11 datasets. SHAP dependence plots showed that the contribution of social media use to the model classified depression shifted from neutral to positive at approximately 150 minutes per day. These findings identify a stable, repeated association between higher social media use and SRD. This work supports further longitudinal and experimental work on whether high exposure levels represent a clinically meaningful risk.</description>
+    </item>
+    <item>
+      <title>Correlates of Implantable Port Placement in Patients Receiving Electroconvulsive Therapy</title>
+      <link>https://www.ovid.com/jnls/ectjournal/fulltext/10.1097/yct.0000000000001311~correlates-of-implantable-port-placement-in-patients</link>
+      <guid isPermaLink="false">https://www.ovid.com/jnls/ectjournal/fulltext/10.1097/yct.0000000000001311~correlates-of-implantable-port-placement-in-patients</guid>
+      <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+      <category>ECT</category>
+      <category>autisme</category>
+      <category>catatonie</category>
+      <description></description>
+    </item>
+    <item>
+      <title>MAP-D: Precision Medicine for Depression</title>
+      <link>https://fnih.org/our-programs/multi-modal-assessment-phenotyping-depression/</link>
+      <guid isPermaLink="false">https://fnih.org/our-programs/multi-modal-assessment-phenotyping-depression/</guid>
+      <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+      <category>Calypso</category>
+      <category>dépression</category>
+      <description></description>
+    </item>
+    <item>
+      <title>Writing when writhing with psychosis: a computational linguistic autopsy of Vaslav Nijinsky’s diary</title>
+      <link>https://doi.org/10.1136/medhum-2026-014121</link>
+      <guid isPermaLink="false">10.1136/medhum-2026-014121</guid>
+      <pubDate>Wed, 26 Aug 2026 12:00:00 GMT</pubDate>
+      <category>linguistics</category>
+      <category>psychose</category>
+      <category>Semiologie</category>
+      <description>&#39;God of Dance&#39; Vaslav Nijinsky wrote profusely during a short period in 1918-1919, immediately preceding his diagnosis of schizophrenia and long-term confinement. This diary, in its uncensored form, constitutes one of the most extensively documentedfirst-person accounts during psychosis. It offers a chance to explore the impact of psychosis on writing-not just onone writes, but alsoone writes under such torment. The text generates a pervasive impression of repetitive, meandering thought-invoking suspicions of being a product of-an affliction that lies at the core of schizophrenia. We study the specific linguistic structure of this diary using computational approaches, comparing it to a word-count-matched control text composed by his wife, Romola Nijinsky, to characterise what the writing does show. Our computational analysis reveals intact topic-level discourse organisation with adequate surface-level coherence. But this apparent coherence is generated via repetition of words-indexing an inability to escape a narrow lexical repertoire-a pattern we term theFurthermore, first-person pronoun usage was 5.45-fold higher than in the control text, and its removal reduced coherence and increased perplexity, demonstrating that the self-pronoun &#39;I&#39; functioned as afor Nijinsky&#39;s thought in written text. All findings replicated on the original Russian manuscript, confirming robustness despite translation. Nijinsky&#39;s diary is not simply a document of suffering or a record of thought disorder; it is an unwitting self-portrait of a mind condensing around a fixed, narrow repertoire of words and the concepts they stand for.</description>
+    </item>
+    <item>
+      <title>Clinical outcomes of psychotic depression in Sweden: a nationwide register study</title>
+      <link>https://www.sciencedirect.com/science/article/abs/pii/S016503272601253X</link>
+      <guid isPermaLink="false">10.1016/j.jad.2026.122400</guid>
+      <pubDate>Mon, 24 Aug 2026 12:00:00 GMT</pubDate>
+      <category>Dépression psychotique</category>
+      <description>BACKGROUND : Data on clinical outcomes in psychotic depression remain limited. We examined hospitalization, suicide, and treatment patterns in Swedish patients with psychotic depression.
+
+METHODS : This nationwide register-based study included patients with an index diagnosis of psychotic unipolar depression during 2012-2020. Post-index psychiatric hospitalizations and suicide deaths were examined descriptively and using logistic regression adjusted for sex, age, prior admissions, psychiatric comorbidity, index care setting (inpatient or outpatient), and pharmacological treatment. For patients treated with electroconvulsive therapy (ECT) during 2012-2020, the outcomes of response and remission according to the Clinical Global Impressions Scale were assessed by logistic regression.
+
+RESULTS : Of 8048 patients, 54.8% were women, median age was 47 years (interquartile range 30-63), and 51.8% were diagnosed in specialized outpatient care. A total of 25.1% were hospitalized and 0.8% died by suicide within 36 weeks. Index diagnosis in inpatient care, prior admissions, comorbid alcohol or substance use disorder, antipsychotic treatment, and younger age (≤25 years) were associated with increased odds of post-index hospitalization. Younger age was associated with decreased odds of suicide. Among ECT-treated patients, 89.8% achieved response and 48.4% achieved remission. Younger age and prior admissions were associated with decreased odds of remission. Age 51-75 years, compared with ≤25 years, was associated with increased odds of response.
+
+CONCLUSIONS : Psychotic depression carries a high risk of psychiatric hospitalization and suicide shortly after index diagnosis. Increased odds of hospitalization associated with antipsychotic treatment likely reflect confounding by indication. Among ECT-treated patients, response and remission rates were high.</description>
+    </item>
+    <item>
+      <title>Exploring the association between social exclusion and mental health problems</title>
+      <link>https://doi.org/10.1007/s00127-026-03196-z</link>
+      <guid isPermaLink="false">10.1007/s00127-026-03196-z</guid>
+      <pubDate>Sun, 23 Aug 2026 12:00:00 GMT</pubDate>
+      <category>social-exclusion</category>
+      <category>public-health</category>
+      <description>PURPOSE : Social exclusion encompasses multiple domains, material, digital, relational, political, and structural. These may have different impacts on an individual&#39;s mental health. We evaluated associations between domains of social exclusion and mental health problems in a sample of English adults.
+
+METHODS : Using data from Understanding Society, we analysed social exclusion exposures and mental health outcomes at Wave 11 (2019-21) among 34,403 adults. We generated standardised domain scores and an overall social exclusion measure using principal component analysis. Mental health was assessed using the General Health Questionnaire (GHQ-12) continuous symptom scores (range 0-36). We used survey-weighted linear regression models adjusted for age, sex, and ethnicity.
+
+RESULTS : Each standard deviation increase in overall social exclusion was associated with 1.28-point increase in GHQ-12 symptoms (95% CI: 1.11,1.44). Domain-specific analyses showed the strongest associations for material exclusion ([Formula: see text]=1.34, 95% CI: 1.20,1.47) and relational exclusion ([Formula: see text]=1.37, 95% CI:1.09,1.65). Digital, political, and structural exclusion showed smaller positive associations ([Formula: see text]=0.15 to 0.37). Associations did not differ by sex and remained robust when examining mental health caseness as a binary outcome.
+
+CONCLUSION : Social exclusion was associated with worse mental health, with strongest effects for relational and material domains. Policies targeting these domains may have the largest impact on population mental health.</description>
+    </item>
+    <item>
+      <title>The Association Between Lithium Use and Physical Comorbidities Across Age Groups: A Cross‐Sectional Study From the Global Aging and Geriatric Experiments in Bipolar Disorder ( GAGE ‐ BD ) Project</title>
+      <link>https://doi.org/10.1111/acps.70134</link>
+      <guid isPermaLink="false">10.1111/acps.70134</guid>
+      <pubDate>Sun, 23 Aug 2026 12:00:00 GMT</pubDate>
+      <category>trouble bipolaire</category>
+      <category>lithium</category>
+      <description>INTRODUCTIONS : Lithium remains the first-line maintenance treatment for bipolar disorder (BD), yet its safety in older-age BD (OABD) is uncertain due to limited large-scale data. OABD patients often experience more severe physical comorbidities compared to younger BD patients, but systematic evidence regarding lithium&#39;s association with these conditions is lacking. This study examined the association between lithium use and physical comorbidities across age groups using the international Global Aging and Geriatric Experiments in Bipolar Disorder (GAGE-BD) dataset.
+
+METHODS : A cross-sectional analysis was conducted using combined Wave 1 and 2 data from GAGE-BD project, encompassing 37 studies from 20 sites worldwide. Participants aged ≥ 18 years with BD were classified according to current lithium use. Physical comorbidities were harmonised into eight organ-system domains. Sociodemographic and clinical variables were compared between individuals receiving lithium treatment and those not prescribed lithium. Generalised linear mixed models adjusted for age, site and lithium × age interaction were applied to evaluate associations with physical comorbidities.
+
+RESULTS : Of the 2873 total participants included in the study, 1069 were currently receiving lithium treatment and 1804 were not prescribed lithium. Participants treated with lithium showed a lower overall prevalence of physical comorbidities compared with those not receiving lithium. Regression analyses revealed significant age-by-lithium interactions for cardiovascular (χ = 9.27, p = 0.002), respiratory (χ = 7.56, p = 0.006), genitourinary (χ = 8.66, p = 0.003) and endocrine (χ = 16.96, p &lt; 0.001) comorbidities. Model-estimated curve crossings occurred at approximately 43 years (cardiovascular), 32 years (respiratory), 51 years (genitourinary) and 59 years (endocrine), above which predicted prevalence was lower among participants treated with lithium, whereas no differences were observed for gastrointestinal, hepatic, renal or musculoskeletal systems.
+
+CONCLUSIONS : Lithium use in OABD was associated with a lower burden of specific physical comorbidities, particularly cardiovascular, respiratory and endocrine conditions. Although prescription bias cannot be excluded, the findings challenge the perception that lithium exacerbates physical health risks in older adults. Instead, they support lithium&#39;s continued use-with appropriate monitoring-as a safe and effective treatment option for OABD, and highlight the need for prospective studies to further clarify the relationship between lithium exposure and physical health outcomes.</description>
+    </item>
+    <item>
+      <title>Validation of the Catatonia Quick Screen in the Original Bush‐Francis Catatonia Rating Scale Cohort</title>
+      <link>https://doi.org/10.1111/acps.70135</link>
+      <guid isPermaLink="false">10.1111/acps.70135</guid>
+      <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+      <category>catatonie</category>
+      <description>INTRODUCTION : Delayed catatonia diagnosis may cause preventable harm. The 4-item Catatonia Quick Screen (CQS) allows rapid screening, but its specificity requires evaluation. We assessed CQS sensitivity and specificity using the original Bush Francis Catatonia Rating Scale (BFCRS) cohort.
+
+METHODS : Retrospective reanalysis of data from 215 consecutive inpatient psychiatric admissions. CQS classifications were compared against BFCRS, DSM-5-TR, and ICD-11 criteria. 95% confidence intervals (CIs) were calculated via Clopper-Pearson exact methods, treating the eight single-sign patients conservatively as false positives.
+
+RESULTS : All 15 catatonia cases screened positive (true positives). The CQS demonstrated 100% sensitivity (95% CI: 78.2% to 100%), 96.0% specificity (95% CI: 92.3% to 98.3%), 65.2% positive predictive value (95% CI: 42.7% to 83.6%), and 100% negative predictive value (95% CI: 98.1% to 100%).
+
+CONCLUSION : The CQS showed excellent sensitivity and high specificity in this psychiatric cohort. It serves as a rapid, low-burden screening tool to accelerate clinical recognition, though positive results require formal diagnostic confirmation.</description>
+    </item>
+    <item>
+      <title>SUBJECTIVE EXPERIENCES OF CATATONIA IN ACUTE PSYCHIATRIC INPATIENTS: AN EXPLORATORY STUDY</title>
+      <link>https://www.sciencedirect.com/science/article/abs/pii/S0165178126004373#access-box</link>
+      <guid isPermaLink="false">10.1016/j.psychres.2026.117377</guid>
+      <pubDate>Sun, 16 Aug 2026 12:00:00 GMT</pubDate>
+      <category>catatonie</category>
+      <category>Phénoménologie</category>
+      <description></description>
+    </item>
+    <item>
+      <title>Dopamine and Mood in Psychotic Disorders : An 18F-DOPA PET Study</title>
+      <link>https://doi.org/10.1001/jamapsychiatry.2025.1811</link>
+      <guid isPermaLink="false">10.1001/jamapsychiatry.2025.1811</guid>
+      <pubDate>Thu, 13 Aug 2026 12:00:00 GMT</pubDate>
+      <category>psychosis</category>
+      <category>troubles de l&#39;humeur</category>
+      <category>dopamine</category>
+      <description>IMPORTANCE : There is limited neurobiological or trial evidence guiding treatment of comorbid affective syndromes in psychotic disorders. Given the use of dopamine-blocking antipsychotics, understanding dopamine function across these mood states is warranted.
+
+OBJECTIVE : To test for differences in dopamine synthesis capacity (Kicer) between affective syndromes across psychotic disorders and for association with psychotic symptom severity.
+
+DESIGN, SETTING, AND PARTICIPANTS : In this cross-sectional study using fluorine F 18-labeled fluorodopa (18F-DOPA) positron emission tomography (PET), individuals with first-episode psychosis and comorbid affective syndromes, including a current major depressive episode (MDE) or mixed/mania syndromes, and matched controls were recruited from early intervention services in inner-city London, United Kingdom. Data were collected from March 2013 to February 2022 and analyzed from October 1, 2023, to January 1, 2025.
+
+EXPOSURE : Striatal Kicer measured by 18F-DOPA PET.
+
+MAIN OUTCOMES AND MEASURES : Striatal Kicer and scores on the Positive and Negative Syndrome Scale, Hamilton Depression Rating Scale, Montgomery-Åsberg Depression Rating Scale, and Young Mania Rating Scale were determined.
+
+RESULTS : The study included a total of 76 individuals (38 with first-episode psychosis and comorbid affective syndromes [25 with MDE and 13 with mixed/mania syndromes] and 38 matched controls). The mean (SD) age was 27.2 (8.9) years overall, 30.7 (12.8) years among those with MDE, 23.7 (3.1) years among those with mixed/mania syndromes, and 26.0 (6.0) years among controls. Sex distribution did not differ (MDE, 13 [52%] male; mixed/mania syndromes, 8 [62%] male; controls, 25 [66%] male; P = .56). Kicer (controlling for age and sex) was significant across groups in whole striatum (F2,71 = 4.04; P = .02; R2 = 0.13). People with psychosis and MDE had lower Kicer compared with those with psychosis and mixed/mania syndromes (β [SE], 0.014 [0.001]; P = .02), with the largest difference observed in the limbic striatum (Cohen d = 1.57; P &lt; .001). In the overall psychosis sample, higher striatal Kicer was associated with greater positive psychotic symptoms (R2 = 0.13; β [SE], 0.000066 [0.000030]; P = .03), notably in the associative striatum (R2 = 0.15; P = .02). No significant association was found in the limbic striatum.
+
+CONCLUSIONS AND RELEVANCE : Kicer was lower in psychosis and comorbid MDE than mixed/mania syndromes, and transdiagnostically, greater positive psychotic symptoms were associated with higher Kicer in the associative, but not limbic, striatum. This subregion dopamine dysregulation has relevance for dopamine-modulating therapeutic agents and drug discovery.</description>
+    </item>
+    <item>
+      <title>Expression-Experience Decoupling: Disambiguating the Behavioral and Phenomenal Features of Catatonia</title>
+      <link>https://doi.org/10.1176/appi.neuropsych.20260107</link>
+      <guid isPermaLink="false">10.1176/appi.neuropsych.20260107</guid>
+      <pubDate>Wed, 12 Aug 2026 12:00:00 GMT</pubDate>
+      <category>catatonie</category>
+      <category>Phénoménologie</category>
+      <description></description>
+    </item>
+    <item>
+      <title>Evidence based interventions for bipolar disorder across phases and age groups: living umbrella review, evaluation, analysis, and communication hub (U-REACH) project</title>
+      <link>https://doi.org/10.1136/bmj-2026-100216</link>
+      <guid isPermaLink="false">10.1136/bmj-2026-100216</guid>
+      <pubDate>Wed, 12 Aug 2026 12:00:00 GMT</pubDate>
+      <category>trouble bipolaire</category>
+      <category>Thérapeutique</category>
+      <description>OBJECTIVES : To systematically evaluate the certainty of evidence for treatment strategies across age groups and mood phases in bipolar disorder, and develop an open access web platform to facilitate shared decision making.
+
+DESIGN : Living umbrella review, evaluation, analysis, and communication hub (U-REACH) project.
+
+DATA SOURCES : PubMed, PsycInfo, and Cochrane library databases, from inception to 19 November 2024.
+
+ELIGIBILITY CRITERIA FOR SELECTING STUDIES : Systematic reviews with network or pairwise meta-analyses of randomised controlled trials of pharmacological, nutraceutical, psychosocial, brain stimulation, or circadian rhythm based treatments, administered as monotherapy (without concurrent interventions), augmentation treatment (interventions added to an ongoing treatment regimen), or combination treatment (simultaneous initiation of two different interventions), examining any age group, bipolar disorder phase (ie, acute bipolar depression, mania or mixed episodes, or maintenance), treatment, control, or outcome.
+
+RESULTS : 77 studies met the inclusion criteria (21 network meta-analyses and 56 pairwise meta-analyses), including 116 unique pharmacological (n=74), brain stimulation (n=18), nutraceutical (n=13), psychosocial (n=8), and circadian rhythm based (n=3) treatments as monotherapy, augmentation, or combination therapy, along with five control interventions. These studies covered 133 unique outcomes (45 efficacy outcomes and 88 safety outcomes) resulting in 2510 meta-analyses with Grading of Recommendations, Assessment, Development, and Evaluations (GRADE) ratings of the certainty of the evidence as high (n=236), moderate (n=827), low (n=986), and very low (n=461). A communication hub, the Evidence Based Interventions for Bipolar Disorder (EBI-BD) platform, was developed and the full results are freely available (https://ebibd-database.org), including the preference based tool (12 interventions and 17 safety outcomes). Interventions effective across outcomes varied by phases. For bipolar depression, effective interventions in adults were cariprazine, divalproex or valproate, fluoxetine, ketamine (augmentation), lamotrigine, lumateperone, lurasidone, olanzapine, olanzapine with fluoxetine, and quetiapine, whereas effective interventions in children and adolescents were lurasidone and olanzapine with fluoxetine. For mania episodes, effective interventions in adults were aripiprazole, asenapine, carbamazepine, cariprazine, divalproex or valproate, haloperidol, lithium, olanzapine, paliperidone, quetiapine (also augmentation), risperidone (also as augmentation), tamoxifen, and ziprasidone, whereas effective interventions in children and adolescents were aripiprazole, asenapine, olanzapine, quetiapine, and risperidone. For maintenance, interventions effective across outcomes in adults were aripiprazole (also the long acting injectable formulation), asenapine, divalproex or valproate, lithium, olanzapine, group psychoeducation (augmentation), quetiapine, and risperidone long acting injectable formulation. Interventions effective across phases were aripiprazole (also as augmentation and as a long acting injectable formulation), asenapine, cariprazine, cognitive behavioural therapy (augmentation), divalproex or valproate, lamotrigine, lithium, olanzapine (also as augmentation), paliperidone, quetiapine (also as augmentation), and risperidone (also as augmentation and the long acting injectable formulation) (adults). Treatment effects by neuroscience based nomenclature classes are also reported.
+
+CONCLUSIONS : The EBI-BD tool can help clinicians make evidence based, personalised treatment decisions for bipolar disorder. This resource can inform clinical guidelines and provides a foundation for continuously improving bipolar disorder care as new evidence emerges.
+
+TRIAL REGISTRATION : Open Science Framework https://osf.io/pjmvn/ READERS&#39; NOTE: This is a living systematic review and may be updated in the next two years if additional evidence emerges.</description>
+    </item>
+    <item>
+      <title>Towards a Safe and Effective Lithium Therapeutic Range for Older Adults With Bipolar Disorder: An ISBD Task Force Systematic Review</title>
+      <link>https://doi.org/10.1111/bdi.70151</link>
+      <guid isPermaLink="false">10.1111/bdi.70151</guid>
+      <pubDate>Fri, 31 Jul 2026 12:00:00 GMT</pubDate>
+      <category>lithium</category>
+      <category>bipolar</category>
+      <category>elderly</category>
+      <description>OBJECTIVES : Lithium is recommended as the first-line maintenance treatment for older adults with bipolar disorder (OABD). However, age-related reduction in renal clearance, heightened sensitivity to adverse effects, and drug interactions increase the risk of toxicity and necessitate lower therapeutic serum levels in this population. Despite expert consensus supporting age-adjusted targets, most clinical laboratories still do not report age-specific therapeutic ranges. We conducted a systematic review on recommended serum lithium levels in OABD to update evidence supporting age-specific therapeutic ranges for safe and effective lithium management.
+
+METHODS : We searched Medline, PsycINFO, Embase, and Cochrane Central Register of Controlled Trials since 2017 for studies analyzing lithium serum levels in individuals with bipolar disorder ≥ 60 years. Two reviewers independently screened titles, abstracts, and full texts. We used the National Institutes of Health Quality Assessment Tool to assess methodological quality.
+
+RESULTS : Fourteen studies, including 8808 older adults using lithium, met inclusion criteria. All studies were observational with cross-sectional or cohort designs. Mean or median lithium levels ranged from 0.47-0.67 mmol/L. Levels of 0.82-1.00 mmol/L were associated with increased side effects or early toxicity signs, while levels of 1.20-1.25 mmol/L were overtly toxic. Impaired renal function and concomitant use of diuretics, ACE inhibitors, and NSAIDs required closer monitoring for toxicity.
+
+CONCLUSIONS : These findings are consistent with age-adjusted lithium therapeutic targets in older adults and provide additional observational support for clinical laboratories to adopt age-specific therapeutic ranges. Clinicians should consider individualized monitoring accounting for age-related physiological changes and medication interactions to ensure safer and effective lithium therapy.</description>
+    </item>
+    <item>
+      <title>Le projet Rétaba(c)blissement</title>
+      <link>https://www.programme-sante-tabac-hdf.fr/76/le-projet-retaba-c-blissement</link>
+      <guid isPermaLink="false">https://www.programme-sante-tabac-hdf.fr/76/le-projet-retaba-c-blissement</guid>
+      <pubDate>Tue, 21 Jul 2026 12:00:00 GMT</pubDate>
+      <category>Addicto</category>
+      <category>tabac</category>
+      <description>Guide &quot;La boite à outils Rétabacblissement&quot;</description>
+    </item>
+    <item>
+      <title>Essential information about chronobiology and chronotherapy for the optimal care of people with bipolar disorders: an international expert consensus</title>
+      <link>https://doi.org/10.1101/2025.06.17.25329750</link>
+      <guid isPermaLink="false">10.1101/2025.06.17.25329750</guid>
+      <pubDate>Wed, 15 Jul 2026 12:00:00 GMT</pubDate>
+      <category>chronobiologie</category>
+      <category>chronothérapie</category>
+      <category>Trouble bipolaire</category>
+      <description>BACKGROUND : Circadian dysfunction is involved in the pathophysiology of bipolar disorders (BD), and circadian-based interventions are gaining recognition in their management. Moreover, basic and epidemiologic research has generated findings inspiring circadian-informed self- and clinician-management strategies. Despite these gains, many Clinical Practice Guidelines and clinical training programs have not incorporated this evidence in their recommendations and curricula.
+
+AIMS : This International Society for Bipolar Disorders (ISBD) Chronobiology and Chronotherapy Task Force position paper reports a Delphi study-based international consensus statement on what is essential for mental health clinicians to know about the chronobiology and chronotherapy of BD.
+
+METHODS : An initial pool of statements was derived via review of academic and grey literatures. Statements were rated on a 5-point scale (essential; important; don&#39;t know/depends; unimportant; should not be included). Consensus was reached when statements were rated as essential or important by ≥80% of experts. Two young persons with lived experience of BD gave feedback on acceptability.
+
+RESULTS : Thirty experts from 15 countries in Europe, North and South America, and the Asia Pacific participated (mean age 55.3 years [SD=11.8]; 40% female; 83% psychiatrists; mean clinical and research experience of 26 [SD=10.8] and 22 years [SD=12.6], respectively). Eight-hundred-and-forty-seven ratings occurred across 12 core constructs and three rounds; 470 statements were discarded after one round and 35 were discarded after rerating. Consensus was reached on 342 statements spanning four themes: basic circadian science; circadian health and disruption; chronobiology of BD; and six chronotherapies (e.g., key protocols, outcomes, side effects, risks/contraindications).
+
+CONCLUSIONS : This position paper summarises an international consensus statement on the essential information about the chronobiology and chronotherapy of BD that is intended to help clinicians optimise their management of individuals with BD. This knowledge is available online ( https://osf.io/agk9y ) and its dissemination is expected to enhance the training and efficacy of clinicians globally.</description>
+    </item>
+  </channel>
+</rss>
