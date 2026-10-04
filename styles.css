@@ -1,0 +1,314 @@
+/*
+ * Site public — traitement « Index » (maquette B).
+ *
+ * Registre : bibliographie imprimée. Année en gouttière, alinéa négatif,
+ * interlignage serré, filets seulement là où ils séparent quelque chose.
+ * Sang-de-bœuf, la couleur des reliures et des onglets d'index.
+ *
+ * Règles tenues depuis le §5 du cahier des charges : aucune carte, aucune
+ * ombre portée, aucun coin arrondi, colonne d'environ 70 caractères, résumé
+ * replié par défaut, une seule couleur d'accent (mots-clés et liens).
+ */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+:root {
+  --papier: #fdfcf9;
+  --encre: #1a1713;
+  --faible: #726b62;
+  --filet: #e3ded4;
+  --accent: #7a2b2b;
+  --mesure: 68ch;
+  --serif: Constantia, "Palatino Linotype", Palatino, "Book Antiqua", "Iowan Old Style", Georgia, serif;
+  --sans: "Segoe UI", Inter, -apple-system, "Helvetica Neue", Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --papier: #15130f;
+    --encre: #eae5db;
+    --faible: #948c80;
+    --filet: #302b23;
+    --accent: #d98b84;
+  }
+}
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--papier);
+  color: var(--encre);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.cadre {
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: clamp(1.25rem, 3vw, 2.25rem) clamp(1rem, 4vw, 2.25rem) 6rem;
+}
+
+a { color: inherit; }
+
+/* ── En-tête et introduction (§4) ───────────────────────────────────── */
+
+.enseigne {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  margin: 0 0 0.75rem;
+}
+
+/* Volontairement compact : l'introduction ne doit pas repousser les
+   références sous la ligne de flottaison, en particulier sur mobile (§4). */
+.intro {
+  font-family: var(--serif);
+  font-size: 0.83rem;
+  line-height: 1.45;
+  color: var(--faible);
+  margin: 0 0 1rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 2px solid var(--encre);
+  max-width: var(--mesure);
+}
+.intro p { margin: 0 0 0.25rem; }
+.intro a { color: var(--accent); text-underline-offset: 2px; }
+
+/* ── Bandeau de filtres, toujours visible (§5) ───────────────────────── */
+
+.bandeau {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--papier);
+  border-bottom: 1px solid var(--filet);
+  padding: 0.7rem 0 0.75rem;
+  margin-bottom: 0.4rem;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.bandeau input[type="search"] {
+  font: inherit;
+  font-size: 16px;              /* en dessous, iOS zoome au focus */
+  width: 100%;
+  background: transparent;
+  color: inherit;
+  border: 0;
+  border-bottom: 1px solid var(--filet);
+  border-radius: 0;
+  padding: 0.4rem 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.bandeau input[type="search"]::placeholder { color: var(--faible); opacity: 1; }
+.bandeau input[type="search"]:focus { outline: 0; border-bottom-color: var(--accent); }
+
+.bandeau summary {
+  font-size: 0.66rem;
+  text-transform: uppercase;
+  letter-spacing: 0.11em;
+  color: var(--faible);
+  cursor: pointer;
+  list-style: none;
+  min-height: 1.75rem;
+}
+.bandeau summary::-webkit-details-marker { display: none; }
+.bandeau summary::after { content: " ▾"; }
+.bandeau details[open] summary::after { content: " ▴"; }
+
+.nuage { display: flex; flex-wrap: wrap; gap: 0.3rem 0.95rem; padding-top: 0.55rem; }
+.actifs { display: flex; flex-wrap: wrap; gap: 0.3rem 0.9rem; }
+.actifs:empty { display: none; }
+
+/* ── Mot-clé : seul endroit où la couleur d'accent apparaît ──────────── */
+
+.mc {
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+  color: var(--accent);
+  background: none;
+  border: 0;
+  padding: 0.15rem 0;
+  margin: 0;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.mc:hover { text-decoration: underline; text-underline-offset: 2px; }
+.mc:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* Chaque filtre actif est supprimable d'un clic — sans quoi on se perd
+   dans le filtrage cumulatif (§5). */
+.actif {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.4em;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid var(--accent);
+  padding: 0.1rem 0;
+  margin: 0;
+  cursor: pointer;
+  color: var(--accent);
+}
+.actif::after { content: "×"; font-size: 1.05em; line-height: 1; }
+.actif:hover { opacity: 0.65; }
+.actif:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* ── Une entrée ──────────────────────────────────────────────────────── */
+
+.entree {
+  display: grid;
+  grid-template-columns: 3.1rem minmax(0, 1fr);
+  gap: 0 0.9rem;
+  padding: 0.72rem 0;
+  max-width: var(--mesure);
+}
+
+/* L'année, et non un numéro d'ordre : un numéro changerait de valeur à
+   chaque filtrage et ne désignerait donc rien de stable. */
+.rang {
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  color: var(--faible);
+  font-variant-numeric: tabular-nums;
+  padding-top: 0.25rem;
+}
+
+.titre {
+  font-family: var(--serif);
+  font-size: 1.01rem;
+  line-height: 1.3;
+  margin: 0 0 0.16rem;
+  font-weight: 600;
+  text-wrap: balance;
+}
+.titre a { text-decoration: none; }
+.titre a:hover { color: var(--accent); }
+
+.meta { font-size: 0.755rem; line-height: 1.45; color: var(--faible); margin: 0; }
+.meta em { font-style: italic; }
+
+/* Les mots-clés courent à la suite de la notice : c'est ce qui tient la
+   densité, là où une ligne propre ajouterait sept lignes à la page. */
+.mots { display: inline; }
+.mots .mc + .mc::before { content: " · "; color: var(--filet); }
+
+/* Le commentaire personnel, comme une note de lecture. */
+.note {
+  font-family: var(--serif);
+  font-size: 0.85rem;
+  line-height: 1.45;
+  border-left: 2px solid var(--accent);
+  padding-left: 0.8rem;
+  margin: 0.4rem 0 0;
+}
+
+/* Résumé replié par défaut : deux lignes d'amorce et un « + ». Sans cela
+   chaque entrée fait dix lignes et la densité est perdue (§5). */
+.resume {
+  font-family: var(--serif);
+  font-size: 0.81rem;
+  line-height: 1.45;
+  color: var(--faible);
+  margin: 0.3rem 0 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.resume.ouvert { display: block; overflow: visible; }
+
+.deplier {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background: none;
+  border: 0;
+  padding: 0.3rem 0 0;
+  margin: 0;
+  color: var(--faible);
+  cursor: pointer;
+}
+.deplier:hover { color: var(--accent); }
+.deplier:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* Marqueur de type pour les non-articles (§3.2). */
+.marqueur {
+  font-family: var(--sans);
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--faible);
+  border: 1px solid var(--filet);
+  padding: 0.1em 0.4em;
+  margin-left: 0.5em;
+  vertical-align: 0.25em;
+  white-space: nowrap;
+}
+
+.compte { font-size: 0.7rem; color: var(--faible); margin-top: 2rem; }
+.vide { color: var(--faible); font-style: italic; padding: 2rem 0; }
+
+.pied {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--filet);
+  font-size: 0.7rem;
+  color: var(--faible);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.2rem;
+}
+.pied a { color: var(--accent); }
+
+/* ── Lien de capture, réservé au propriétaire ──────────────────────────
+   Posé dans le bandeau collant, à côté de la recherche : ajouter une
+   référence ne doit pas demander de remonter la page. Discret — c'est un
+   outil personnel, pas une invitation faite au lecteur — mais avec une
+   cible tactile suffisante au pouce. */
+
+.ligne-recherche {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.ligne-recherche input[type="search"] { flex: 1; min-width: 0; }
+
+.lien-outil {
+  flex: none;
+  /* Cible tactile d'au moins 44 px : en dessous, on la rate au pouce. La
+     taille du texte reste discrète, c'est la zone cliquable qui grandit. */
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  text-decoration: none;
+  white-space: nowrap;
+  padding: 0 0.8rem;
+  border: 1px solid var(--filet);
+}
+.lien-outil:hover { border-color: var(--accent); }
+.lien-outil:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.lien-outil[hidden] { display: none; }
+
+@media (max-width: 34rem) {
+  .entree { grid-template-columns: 1fr; gap: 0.15rem; }
+  .rang { padding-top: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+}
