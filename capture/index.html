@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Veille — capture</title>
+  <meta name="theme-color" content="#fdfcf9" />
+  <!-- .json et non .webmanifest : Netlify déduit le type MIME de l'extension
+       et ignore les surcharges d'en-tête, si bien qu'un .webmanifest était
+       servi en application/octet-stream — que Chrome refuse, d'autant que le
+       site envoie X-Content-Type-Options: nosniff. -->
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="icone.svg" type="image/svg+xml" />
+  <!-- iOS ignore le manifeste pour l'écran d'accueil et n'accepte qu'un PNG :
+       sans ces lignes, l'icône installée serait une vignette de la page. -->
+  <link rel="apple-touch-icon" href="icone-180.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="Veille" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="racine"></div>
+  <script type="module" src="dist/app-FFNZB46D.js"></script>
+  <script>
+    // Enregistré hors du module principal : si l'agent de service échoue
+    // (navigateur ancien, page ouverte en local), l'application doit
+    // continuer à fonctionner normalement, sans installation ni hors ligne.
+    if ('serviceWorker' in navigator) {
+      // `updateViaCache: 'none'` : sans cela le navigateur a le droit de
+      // relire `sw.js` dans son propre cache HTTP, et un agent périmé peut
+      // alors se réinstaller lui-même indéfiniment. C'est la panne « j'ai fait
+      // Ctrl+Maj+R et j'ai toujours l'ancienne version » : le rechargement
+      // forcé ne concerne que la page, pas l'agent qui la sert.
+      addEventListener('load', () => {
+        navigator.serviceWorker
+          .register('sw.js', { updateViaCache: 'none' })
+          .then((reg) => reg.update())
+          .catch(() => {});
+      });
+
+      // Une nouvelle version vient de prendre la main. La page affichée reste
+      // l'ancienne : son code était déjà chargé quand la bascule a eu lieu.
+      // Sans ce rechargement, il faut fermer et rouvrir l'application pour
+      // voir la correction — ce qui ne se devine pas, et a fait croire trois
+      // fois de suite que des fonctions livrées étaient absentes.
+      let bascule = false;
+      navigator.serviceWorker.addEventListener('controllerchange', () => {
+        if (bascule) return;
+        bascule = true;
+
+        // On ne recharge pas au milieu d'une saisie : la fiche en cours
+        // serait perdue. Dans ce cas on le signale, et l'utilisateur choisit
+        // son moment.
+        if (window.veilleTravailEnCours && window.veilleTravailEnCours()) {
+          const avis = document.createElement('button');
+          avis.type = 'button';
+          avis.className = 'avis-version';
+          avis.textContent = 'Nouvelle version disponible — recharger';
+          avis.addEventListener('click', () => location.reload());
+          document.body.append(avis);
+          return;
+        }
+        location.reload();
+      });
+    }
+  </script>
+</body>
+</html>
