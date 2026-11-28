@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Veille bibliographique</title>
+    <link>https://lectures.aliamad.com</link>
+    <description>Articles, lectures cliniques et documents utiles autour de la psychiatrie.</description>
+    <language>fr</language>
+    <lastBuildDate>Sat, 28 Nov 2026 07:49:42 GMT</lastBuildDate>
+    <atom:link href="https://lectures.aliamad.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trends in psychotropic medication and polypharmacy exposure during pregnancy in France, 2010–2024: a nationwide population-based study</title>
+      <link>https://www.sciencedirect.com/science/article/pii/S2666776226003558</link>
+      <guid isPermaLink="false">10.1016/j.lanepe.2026.101943</guid>
+      <pubDate>Sat, 28 Nov 2026 12:00:00 GMT</pubDate>
+      <category>psychotropic-medication</category>
+      <category>perinat</category>
+      <description>Background Limited data on psychotropic medication use and polypharmacy during pregnancy highlight the need for monitoring to inform clinical practice and public health policies. Methods This nationwide observational study used French National Health Data System data on pregnancies lasting over 91 days among women aged 15–49 years, ending in birth termination between January 2010 and December 2024. Annual prevalence of psychotropic exposure and polypharmacy was the proportion of pregnancies ending each year with dispensing of at least one or two different psychotropic medications, respectively. Analyses were stratified by maternal age and medication class. Joinpoint regression assessed temporal trends and time points where significant shifts occurred. Findings Overall, 596,458 (5.9%) pregnancies involved psychotropic exposure and 143,395 (1.4%) polypharmacy. Anxiolytics (n = 461,580; 77.4%), antidepressants (n = 187,992; 31.5%), and hypnotics (n = 60,353; 10.1%) predominated. Exposure was consistently highest among women aged ≥35 years. Overall exposure to psychotropic medications during pregnancy declined, mainly driven by reductions to anxiolytics and hypnotics. In contrast, antidepressant exposure increased, alongside that of antipsychotics, lithium, psychostimulants and psychotropic polypharmacy. Three time segments with distinct trends were identified for psychotropic exposure during pregnancy: 2010–2016 (annual percent change: −1.1%; 95% CI, −1.5 to −0.5%), 2016–2019 (−5.9%; −6.7 to −4.5%), and 2019–2024 (+2.9%; 2.2–3.7%); and in polypharmacy exposure: 2010–2016 (−0.9%; −1.3 to −0.4%), 2016–2020 (−3.9%; −4.8 to −3.3%), and 2020–2024 (+6.6%; 5.9–7.2%). After 2019–2020, annual psychotropic exposure trends accelerated, particularly among women aged ≤24 years (+3.0% per year vs +2.8% among those aged 25–34 years and +2.0% among those aged ≥35 years); a similar pattern was observed for psychotropic polypharmacy (+10.3% per year vs +6.4% and +2.9%, respectively). Interpretation Expanded screening, greater treatment acceptance, evolving guidelines, and worsening mental health may explain rising psychotropic exposure during pregnancy. Steep increases among younger mothers and growing polypharmacy warrant monitoring. Funding None.</description>
+    </item>
+    <item>
+      <title>Predicting Treatment Resistance in First-Episode Psychosis Using Routinely Collected Clinical Data</title>
+      <link>https://doi.org/10.1001/jamapsychiatry.2026.3943</link>
+      <guid isPermaLink="false">10.1001/jamapsychiatry.2026.3943</guid>
+      <pubDate>Thu, 26 Nov 2026 12:00:00 GMT</pubDate>
+      <category>antipsychotic</category>
+      <category>psychosis</category>
+      <category>clozapine</category>
+      <category>PEP</category>
+      <description>IMPORTANCE : There is usually a delay of several years before people with psychosis are identified as showing treatment resistance (TR), as this depends on careful evaluation of 2 or more courses of antipsychotic treatment; however, earlier identification could facilitate timely access to clozapine, the only approved treatment for TR psychosis.
+
+OBJECTIVE : To examine whether clinical data collected when individuals first present with psychosis can be used to predict the subsequent emergence of TR.
+
+DESIGN, SETTING, AND PARTICIPANTS : This prognostic model development and validation study used electronic health record (EHR) data from 10 mental health National Health Service trusts in the Akrivia Health database. All individuals with a first episode of psychosis (FEP) diagnosed between March 1998 and December 2014 were identified, with follow-up through December 2022. EHRs from this cohort were examined for up to 8 years following FEP diagnosis. A nested cross-validation strategy using a leave-one-trust-out approach was used for within-network external validation. Data were analyzed from February 2025 through August 2026.
+
+EXPOSURES : A total of 179 predictors from EHR data collected at first presentation, including symptoms, sociodemographic variables, psychiatric comorbidity, and psychotropic medications.
+
+MAIN OUTCOMES AND MEASURES : Clozapine initiation within 8 years of diagnosis was used as a proxy for TR. Penalized logistic regression was used to model associations between baseline variables and subsequent clozapine treatment. Secondary analyses examined more inclusive criteria for TR, defined as receipt of clozapine or 3 or more nonclozapine antipsychotics.
+
+RESULTS : A total of 25 665 patients were included (mean [SD] age at FEP onset, 25.51 [5.54] years; 12 007 female [46.8%]). In the 8 years following diagnosis, 2133 patients (8.3%) had received clozapine. The model showed acceptable discrimination for clozapine initiation across trusts (mean leave-one-trust-out C statistic, 0.71; 95% CI, 0.68-0.75; positive predictive value, 0.15; 95% CI, 0.12-0.17; negative predictive value, 0.96; 95% CI, 0.95-0.97). Using more inclusive criteria, TR in FEP could still be predicted but with reduced discrimination (mean leave-one-trust-out C statistic, 0.68; 95% CI, 0.64-0.72; positive predictive value, 0.27; 95% CI, 0.24-0.31; negative predictive value, 0.89; 95% CI, 0.88-0.91).
+
+CONCLUSIONS AND RELEVANCE : Findings in this prognostic study indicate it may be possible to predict whether individuals who have just developed psychosis will subsequently show TR using clinical data collected at first presentation. This could facilitate earlier access to clozapine in the subgroup of people with psychosis in whom it is indicated.</description>
+    </item>
+    <item>
+      <title>How to examine movement disorders: a practical framework for clinical reasoning</title>
+      <link>https://doi.org/10.1136/pn-2026-005314</link>
+      <guid isPermaLink="false">10.1136/pn-2026-005314</guid>
+      <pubDate>Thu, 26 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Mouvements anormaux</category>
+      <category>Neurologie</category>
+      <category>Examen clinique</category>
+      <description></description>
+    </item>
+    <item>
+      <title>Is psychomotor retardation associated with treatment response in adults with depression? A secondary analysis of nine randomized controlled trials</title>
+      <link>https://doi.org/10.1017/s0033291726106448</link>
+      <guid isPermaLink="false">10.1017/s0033291726106448</guid>
+      <pubDate>Mon, 23 Nov 2026 12:00:00 GMT</pubDate>
+      <category>psychomotor-disorders</category>
+      <category>trouble dépressif</category>
+      <category>antidépresseurs</category>
+      <category>dépression</category>
+      <category>ralentissement</category>
+      <category>Calypso</category>
+      <description>BACKGROUND : Psychomotor retardation is characterized by slowed motor and cognitive processes. Although associated with greater illness severity in depression, its relationship with treatment response is unclear. We examined whether psychomotor retardation is associated with treatment outcomes in depression.
+
+METHODS : We conducted a secondary analysis of individual participant data from nine randomized controlled trials of pharmacological, psychological, and exercise-based treatments for unipolar depression in primary care (Dep-GP). Self-reported psychomotor retardation was assessed at baseline using the Revised Clinical Interview Schedule. The primary outcome was the standardized-score of each trial&#39;s validated self-report depression measure at 3-4 months post-randomization; the secondary outcome was remission. Within-study regression models were adjusted for established prognostic factors, with secondary analyses additionally adjusting for baseline core depressive symptoms and depression severity. Effect estimates were pooled using random-effects meta-analysis.
+
+RESULTS : Among 4,290 participants, 2,754 (64.2%) reported psychomotor retardation. Psychomotor retardation was associated with greater depression severity at follow-up (pooled-score = 0.184, 95% CI [0.059, 0.309], = 0.004, = 68.7%) and lower odds of remission (pooled OR = 0.737, 95% CI [0.577, 0.941], = 0.015, = 57.7%), adjusting for age, sex, ethnicity, marital status, employment status and allocated treatment. Findings were robust to adjustment for baseline core depressive symptoms but not after adjustment for full baseline severity.
+
+CONCLUSIONS : Psychomotor retardation is associated with poorer treatment outcomes in depression, though this may reflect underlying severity. Recognition of psychomotor retardation may help identify patients at risk of poorer response and inform clinical management.</description>
+    </item>
+    <item>
+      <title>What we have learned from a decade of meta-analyses on lithium: An umbrella review</title>
+      <link>https://www.sciencedirect.com/science/article/abs/pii/S0149763426005555</link>
+      <guid isPermaLink="false">10.1016/j.neubiorev.2026.107097</guid>
+      <pubDate>Sun, 22 Nov 2026 12:00:00 GMT</pubDate>
+      <category>lithium</category>
+      <description>BACKGROUND : Lithium remains the cornerstone treatment for bipolar disorder and has been studied across a widening range of psychiatric and somatic outcomes. This umbrella review synthesized and critically appraised meta-analytic evidence on lithium published in the past decade.
+
+METHODS : MEDLINE, EBSCO, Embase and Cochrane Library were systematically searched for meta-analyses of lithium published between January 2016 and June 2026. Methodological quality was assessed using AMSTAR 2, and primary study overlap using the Corrected Covered Area.
+
+RESULTS : Of 3136 identified records, 83 meta-analyses across seven clinical domains were included. Evidence confirmed lithium&#39;s efficacy for acute mania and relapse prevention in bipolar disorder; but not its acute antidepressant efficacy as monotherapy in bipolar depression. Lithium augmentation was supported for difficult-to-treat unipolar depression. Anti-suicidal effects were consistent in direction, but often imprecisely estimated. Adjunctive lithium improved outcomes of radioactive iodine therapy in hyperthyroidism. Renal, parathyroid and dermatological adverse effects and first-trimester malformation risks were identified, whereas metabolic and cognitive tolerability appeared favorable. Associations with reduced risks of stroke, fracture and cancer and a possible neuroprotective effect were found, although often based on few meta-analyses of low quality. Evidence in minors was scarce. Methodological quality was predominantly (critically) low, with substantial primary study overlap.
+
+CONCLUSION : Current meta-analytic evidence reinforces lithium&#39;s role in acute mania and maintenance treatment of bipolar disorder, while supporting broader psychiatric and somatic applications, including unipolar depression, suicide prevention, and hyperthyroidism. In contrast, evidence for neuroprotective and other emerging indications remains uncertain, highlighting the need for higher-quality studies in understudied areas.</description>
+    </item>
+    <item>
+      <title>Tandem Repeats in Psychiatry: Genetic Characteristics, Impacts in the Brain, and Methodological Challenges</title>
+      <link>https://www.sciencedirect.com/science/article/pii/S2667174326001497?via%3Dihub</link>
+      <guid isPermaLink="false">10.1016/j.bpsgos.2026.100836</guid>
+      <pubDate>Sun, 22 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Génétique</category>
+      <category>Genetics</category>
+      <description>Tandem repeats (TRs) are sequences of DNA bases repeated numerous times in a head-to-tail manner. They make up over 6% of the human genome and play critical roles in driving evolution, inducing variation, and regulating gene expression. TRs can affect a variety of biological processes, including neurodevelopment, brain function, and behavior. Accumulating evidence suggests that TRs exhibit attributes that distinguish them from other kinds of genetic variants, particularly their increased liability to mutation, which enables them to mediate genetic plasticity. Expansion of a subset of these TRs (TR expansions) underlies over 50 human diseases, most of which are Mendelian disorders, such as Huntington disease, myotonic dystrophy, and fragile X syndrome. Emerging data suggest that they may also be involved in psychiatric disorders. However, despite their proven impact on health, to date, these elements have been under-reported in genomic analyses due to the difficulties in their characterization and the technical challenges for sequence alignment and assembly programs. In this review, we summarize the definition, structural characteristics, and mutational mechanisms of TRs in psychiatry. In addition, we introduce their diverse native biological functions in the context of the brain, analyze their pathological mechanisms, and describe their role in the etiology of psychiatric disorders. Finally, we review existing methods for repeat detection and classification. We discuss the computational problems surrounding repeats and describe recent strategies to solve them. Lastly, we discuss future research needed to improve their identification and interpretation.</description>
+    </item>
+    <item>
+      <title>Lithium for Suicide Prevention: Umbrella Review and Meta-Analysis</title>
+      <link>https://doi.org/10.1176/appi.ajp.20260631</link>
+      <guid isPermaLink="false">10.1176/appi.ajp.20260631</guid>
+      <pubDate>Sat, 21 Nov 2026 12:00:00 GMT</pubDate>
+      <category>lithium</category>
+      <category>suicide</category>
+      <description>OBJECTIVE : Lithium has anchored suicide-prevention guidelines for five decades, yet quantitative syntheses of the randomized evidence have produced divergent estimates. The authors evaluated the contemporary randomized evidence on lithium for suicide-related outcomes in patients with psychiatric disorders.
+
+METHODS : Five databases were searched from inception to April 6, 2026, for systematic reviews with meta-analyses of randomized trials comparing lithium with placebo, treatment as usual, or active comparators; all eligible trials were re-extracted, with an updated six-source primary-trial search from January 2024. Prespecified outcomes were completed suicide, suicide attempt, deliberate self-harm, all-cause mortality, composite suicide-related events, and treatment discontinuation. The primary estimator was the Mantel-Haenszel odds ratio without continuity correction, and certainty of evidence was rated using the Grading of Recommendations Assessment, Development, and Evaluation (GRADE) framework.
+
+RESULTS : Ten systematic reviews, one reanalysis, and 20 trial publications (22 strata; 3,675 participants) were included. For completed suicide (11 informative comparisons, 2,292 participants; six events with lithium vs. 16 with comparators), the pooled estimate favored lithium but included the null (odds ratio [OR]=0.39, 95% CI=0.15, 1.00; I²=0%). A Peto sensitivity estimate reached statistical significance (OR=0.42, 95% CI=0.18, 0.98), whereas excluding the most influential comparison attenuated the estimate (OR=0.43, 95% CI=0.13, 1.40). In exploratory subgroup analysis, the signal concentrated in trials enrolling mixed mood-disorder populations (four trials; OR=0.25, 95% CI=0.07, 0.90). Treatment discontinuation favored lithium over placebo but active comparators over lithium. No significant effects emerged for suicide attempt, deliberate self-harm, all-cause mortality, or composite suicide-related events. GRADE certainty was low to very low.
+
+CONCLUSIONS : Current evidence indicates greater uncertainty than suggested by earlier syntheses, with a sparse completed-suicide signal that was estimator-sensitive and with no consistent evidence across related outcomes. Lithium remains a treatment option when clinically indicated, but adequately powered pragmatic trials that prespecify suicidal behavior and balance clinical contact between arms are needed.</description>
+    </item>
+    <item>
+      <title>Emotion regulation capacity lacks a shared neural signature</title>
+      <link>https://doi.org/10.1038/s41586-026-11203-1</link>
+      <guid isPermaLink="false">10.1038/s41586-026-11203-1</guid>
+      <pubDate>Sat, 21 Nov 2026 12:00:00 GMT</pubDate>
+      <category>emotional-regulation</category>
+      <category>emotions</category>
+      <category>Neuroscience</category>
+      <description>Cognitive reappraisal refers to changing how one thinks about a situation to alter its emotional impact. It is central to well-beingand engages prefrontal regulatory circuits, prompting the assumption that their activity reflects a person&#39;s capacity to regulate emotions. Yet evidence for this assumption remains inconclusive and has not been established at scale. Here we analysed 40 task-based functional magnetic resonance imaging (fMRI) datasets in a preregistered consortium with 2,175 participants and show that three widely used indicators of reappraisal capacity-trait questionnaires, task-based affective ratings and amygdala down-regulation-do not converge on a common core. Moreover, none of the three indicators showed the expected association with canonical prefrontal regulatory circuits. Trait questionnaires showed no detectable neural associations across the brain and task-based affective ratings were instead associated with responses in the amygdala and sensorimotor cortices. At the process level, canonical control circuits were engaged during both emotion generation and reappraisal, challenging their presumed specificity for emotion regulation. These findings caution against using activation in putatively regulatory brain regions to infer how well a person regulates emotions, with implications for neural biomarkers, interventions and psychoeducation that link emotion regulation difficulties to specific regional brain deficits.</description>
+    </item>
+    <item>
+      <title>A systematic review of case reports and case series of zolpidem in the diagnosis and treatment of catatonia</title>
+      <link>https://doi.org/10.1177/20451253261487038</link>
+      <guid isPermaLink="false">10.1177/20451253261487038</guid>
+      <pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
+      <category>zolpidem</category>
+      <category>catatonie</category>
+      <description>BACKGROUND : Catatonia, commonly seen in psychiatric and medical practice, is often associated with increased morbidity and mortality. The neurotransmitter systems involved in catatonia include GABA, dopamine and glutamate. Benzodiazepines such as lorazepam, which act on GABA-A receptors, are used to confirm the diagnosis of catatonia, and are the mainstay of treatment. However, several patients with catatonia either don&#39;t respond to lorazepam or its use is not suitable or possible (e.g. due to supply issues). Zolpidem is a positive allosteric modulator of GABA-A receptors. There are an increasing number of case reports and one systematic review of its use in the diagnosis and treatment of catatonia.
+
+OBJECTIVES : The objective of this systematic review is to explore the published evidence of zolpidem&#39;s efficacy as a diagnostic test and for treatment for catatonia.
+
+DESIGN DATA SOURCES AND METHODS : We systematically reviewed evidence for zolpidem use in diagnosis and/or treatment of catatonia, using the PRISMA guidelines. We identified 44 case reports and case series, with 79 patients who met the inclusion criteria through searches of PubMed, Medline, EMBASE, CINAHL, ProQuest and PsycInfo.
+
+RESULTS : 67 out of 79 patients (84.8%) with catatonia showed a positive response to zolpidem, with remission of catatonic symptoms in 24.1% of patients. The high response rate was evident regardless of its use as a challenge test (85.7%) or treatment (86.1%), either used alone (85.7%), or with a benzodiazepine (81.3%). The mean dose of zolpidem was 14.7mg, with a median of 10mg, and a range of 5 to 45mg, with a rapid mean time to response of 30.2 minutes. A few patients responded better to zolpidem at a higher dose and/or when used over a longer duration though this was not always the case. The response rate was higher in women (88.6%) as compared to men (64.7%).
+
+CONCLUSIONS : Although the results from this systematic review generate optimism for the use of zolpidem in diagnosis and treatment of catatonia, these results should be used with caution as there are no randomised controlled trials of zolpidem compared to placebo and/or lorazepam.</description>
+    </item>
+    <item>
+      <title>Medical Complications of Catatonia and Neuroleptic Malignant Syndrome: A Systematic Review</title>
+      <link>https://www.sciencedirect.com/science/article/abs/pii/S266729602600474X?via%3Dihub Medical Complications of Catatonia and Neuroleptic Malignant Syndrome: A Systematic Review - ScienceDirect</link>
+      <guid isPermaLink="false">10.1016/j.jaclp.2026.11.002</guid>
+      <pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
+      <category>catatonie</category>
+      <category>syndrome malin des neuroleptiques</category>
+      <description>BACKGROUND : Catatonia and neuroleptic malignant syndrome (NMS) are related neuropsychiatric conditions linked to diverse and potentially life-threatening medical complications; however, no large-scale review of existing literature has described the types and rates of such complications.
+
+OBJECTIVE : We aimed to systematically examine documented medical complications associated with catatonia/NMS, delineate their clinical implications, and inform strategies for monitoring and improving patient outcomes.
+
+METHODS : Systematic searches of PubMed and Web of Science were conducted up to February 8, 2025 for articles including patients with catatonia or NMS who experienced medical complications. Reviewers independently performed screening and data extraction. Quality assessment was completed via the Newcastle-Ottawa Scale. Case data were analyzed using descriptive statistics.
+
+RESULTS : 281 articles (11 observational studies and 270 case reports/series) met inclusion criteria. Eleven observational studies examined medical complications in 2,008 patients with catatonia/NMS; study quality was low in 1, moderate in 6, and high in 4. Across studies, pneumonia occurred in 0-64% of patients, rhabdomyolysis in 0-30%, and deep vein thrombosis/pulmonary embolus (DVT/PE) in 0-25%, with these complications reported in both malignant and non-malignant presentations. Comparative studies identified catatonia as a significant risk factor for specific complications including DVT and rhabdomyolysis. Case reports/series (364 patients; mean age 45.7 years) demonstrated widespread complications including rhabdomyolysis (n=178), renal dysfunction (n=105), respiratory dysfunction (n=78), respiratory infections (n=47), aspiration (n=36), pulmonary emboli and infarcts (n=43), cardiac dysfunction (n=37), and malnutrition (n=63). Overall 23.9% (n=87) of case-reported patients experiencing medical complications from catatonia/NMS died. Within this case-report sample, mortality rates appeared lower among those receiving benzodiazepines (n=26, 16.9% vs n=61, 29.1%) and electroconvulsive therapy (n=6, 7.3% vs. n=81, 28.7) compared to those not receiving such interventions.
+
+CONCLUSIONS : Catatonia/NMS carries high risks for multisystem complications and mortality, including in non-malignant cases and younger patients. Rhabdomyolysis, renal injury, respiratory compromise, and thromboembolism were particularly common. Among case reported patients, numerically lower mortality rates were seen in those who received benzodiazepines or electroconvulsive therapy. Clinicians should recognize strategies that may reduce risk for certain medical complications.</description>
+    </item>
+    <item>
+      <title>Ketamine/Esketamine in Clinical Practice : Areas of Consensus and Nonconsensus from an American Society of Clinical Psychopharmacology (ASCP) Delphi Panel Task Force</title>
+      <link>https://doi.org/10.4088/jcp.26cs16585</link>
+      <guid isPermaLink="false">10.4088/jcp.26cs16585</guid>
+      <pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
+      <category>kétamine</category>
+      <category>troubles de l&#39;humeur</category>
+      <category>esketamine</category>
+      <category>dépression</category>
+      <description>Important aspects of ketamine/esketamine treatment for mood disorders in contemporary practice remain inadequately addressed by the current evidence base, necessitating expert guidance in areas where clinical decision needs and implementation have advanced more rapidly than available data. The American Society of Clinical Psychopharmacology convened an expert task force to address unresolved questions about the practical use of these agents in &quot;real-world&quot; settings and potential disparities with evidence-based literature.An international panel of 21 academic mood disorder psychopharmacologist-psychiatrists with expertise in ketamine/esketamine clinical care and research.Consensus was reached on 35/105 items (33%), encompassing domains involving diagnostic conditions, contraindications, maximum dosing, racemic versus enantiomeric preparations, oral or intramuscular delivery formulations, laboratory/safety monitoring, access, and parameters for judging treatment outcome.Two successive Delphi rounds were completed alongside multiple virtual, email, and in-person meetings. Consensus was defined a priori as ≥75% agreement/disagreement on 5-point Likert survey items. All authors contributed to the interpretation and drafting of recommendations.Consensus agreement appears elusive for many key decision points involving ketamine/esketamine treatment, reflecting substantial disparities between &quot;real-world&quot; clinical practice and the shortcomings of the clinical trials&#39; evidence base. Uncertainties persist regarding the use of novel formulations (eg, oral or intramuscular), high-dose ketamine infusions, ketamine-assisted psychotherapy, and use in conditions other than major depression. These areas of expert consensus and dissent lay the groundwork for future studies urgently needed to bridge the gap between evidence-based findings and treatment implementation in routine clinical settings.</description>
+    </item>
+    <item>
+      <title>Neuropsychiatric Features of Individuals With LGI1-Antibody Encephalitis</title>
+      <link>https://doi.org/10.1176/appi.neuropsych.20260031</link>
+      <guid isPermaLink="false">10.1176/appi.neuropsych.20260031</guid>
+      <pubDate>Tue, 10 Nov 2026 12:00:00 GMT</pubDate>
+      <category>encéphalite</category>
+      <description>OBJECTIVE : Leucine-rich glioma-inactivated 1 antibody (LGI1-Ab) encephalitis is one of the most common forms of autoimmune encephalitis and is associated with prominent psychiatric features. Psychiatric phenotyping of this condition has relied on small studies and has lacked detail.
+
+METHODS : In this retrospective study, the authors reviewed the psychiatric symptomatology and clinical course among patients with a confirmed diagnosis of LGI1-Ab encephalitis.
+
+RESULTS : The mean±SD age of the study sample (N=31) was 60.7±14.2 years; 71% of patients were men. The time to diagnosis was 4.9±5.8 months, and the follow-up time was 55.8±36.7 months. Eighteen patients had documented hyponatremia, and 22 were treated as inpatients. Psychiatric (71%), cognitive (81%), and neurological (84%) symptoms were present at similar rates, despite 97% of the patients coming from neurology referrals. Patients had a diverse range of seizures, including faciobrachial dystonic seizures. Of 19 patients undergoing detailed psychometric analysis, impairments were noted in memory or orientation (100%), executive function (63%), naming (47%), processing speed (37%), attention (32%), verbal fluency (26%), language (11%), and visuospatial abilities (11%). Patients had psychotic symptoms (42%), agitation or aggression (39%), emotional lability (35%), anxiety (26%), and subjective experiential phenomena (16%). Many patients had psychiatric sequelae that resolved after treatment, but a modest proportion of patients experienced ongoing apathy (6%), behavioral disinhibition (13%), obsessive-compulsive disorder (10%), subjective experiential phenomena (13%), and sleep disorders (29%).
+
+CONCLUSIONS : These findings show that cognitive impairment and psychopathology are frequent in LGI1-Ab encephalitis. Future research could examine neuroimaging, psychiatric symptoms, and cognitive deficits in further detail.</description>
+    </item>
+    <item>
+      <title>Intelligence artificielle pour les revues systématiques et méta-analyses: recommandations pour un usage responsable et acceptable*</title>
+      <link>https://www.sciencedirect.com/science/article/pii/S0040595726001630</link>
+      <guid isPermaLink="false">10.1016/j.therap.2026.10.007</guid>
+      <pubDate>Sun, 08 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Méthode</category>
+      <category>Systematic review</category>
+      <category>Meta-analysis</category>
+      <description>Résumé La revue systématique avec méta-analyse (RS/MA) constitue une méthode privilégiée de synthèse des preuves pour la prise de décision en santé. Mais c’est un exercice long et coûteux, dont la validité repose sur l’exhaustivité de la recherche de la littérature, la rigueur de la sélection des études, de l’extraction et de l’évaluation du risque de biais, ainsi que sur la transparence et la reproductibilité des résultats. L’essor rapide des outils d’intelligence artificielle (IA), des algorithmes déterministes aux grands modèles de langage et aux systèmes agentiques, suscite de fortes attentes (accélérer la recherche bibliographique, assister le tri des études et l’extraction des données, soutenir des méta-analyses vivantes…) autant que des risques potentiels (hallucinations, défaut de reproductibilité, dégradation de la qualité méthodologique). La table ronde n° 6 des Ateliers de Giens 2026 a réuni des experts issus des milieux académique, industriel et réglementaire afin de préciser à quelles conditions l’usage de ces outils est acceptable dans une RS/MA. Nous avons privilégié deux choix de positionnement, adoptant le point de vue de l’utilisateur final de la synthèse et privilégiant des critères d’acceptabilité plutôt que des recommandations méthodologiques. Douze recommandations sont proposées, regroupées en quatre axes : préserver la validité méthodologique ; maintenir l’humain au cœur du processus ; garantir la transparence, la traçabilité et la reproductibilité ; et favoriser un écosystème vertueux. Ces recommandations, inspirées du référentiel international RAISE et adaptées au contexte français, reflètent l’état des connaissances à la date de leur élaboration (juin 2026) dans un domaine pour lequel les outils évoluent rapidement, et ont vocation à être réactualisées.</description>
+    </item>
+    <item>
+      <title>Exploring the durability of esketamine and ketamine&#39;s antidepressant effects in the maintenance phase of treatment: A systematic review</title>
+      <link>https://doi.org/10.1016/j.psychres.2026.117556</link>
+      <guid isPermaLink="false">10.1016/j.psychres.2026.117556</guid>
+      <pubDate>Fri, 06 Nov 2026 12:00:00 GMT</pubDate>
+      <category>antidepressant</category>
+      <category>dépression</category>
+      <category>dépression résistante</category>
+      <category>kétamine</category>
+      <category>esketamine</category>
+      <description>Ketamine has shown rapid antidepressant effects in treatment-resistant mood disorders; however, the durability of these benefits during maintenance treatment remains unclear. This systematic review evaluated outcomes associated with repeated ketamine and esketamine administration during the maintenance phase of treatment. A systematic search of PubMed, Ovid, and Scopus was conducted from database inception through March 2026. Studies involving more than 8 treatments or more than 1 month of treatment in individuals with mood disorders were included. Eligible designs consisted of randomized controlled trials, open-label studies, observational cohorts, and case series. A total of 43 studies met inclusion criteria, including randomized controlled trials and extension studies (n = 8), open-label studies (n = 4), observational studies (n = 24), and case series (n = 7). Overall, ketamine and esketamine were associated with sustained clinical improvement during ongoing treatment, although outcomes varied across study designs. Randomized trials demonstrated reduced relapse rates with continued treatment, while relapse was common following discontinuation of treatment. Observational studies showed heterogeneous outcomes, with evidence of both sustained improvement and attenuation of benefit over time. Case series reported mixed durability. These findings suggest that continued treatment may be important for preserving therapeutic benefit, although long-term outcomes are not uniform across individuals. Further research is needed to optimize maintenance strategies, identify predictors of sustained response, and clarify the long-term efficacy and safety of ketamine-based therapies for mood disorders.</description>
+    </item>
+    <item>
+      <title>Mapping Individual Brain Deviations in ICD-11 Catatonia: Normative Modeling of Structural and Functional MRI Across Two Independent Cohorts</title>
+      <link>https://doi.org/10.1176/appi.ajp.20260326</link>
+      <guid isPermaLink="false">10.1176/appi.ajp.20260326</guid>
+      <pubDate>Thu, 05 Nov 2026 12:00:00 GMT</pubDate>
+      <category>catatonie</category>
+      <category>neuroimagerie</category>
+      <description>OBJECTIVE : Catatonia is a transdiagnostic psychomotor syndrome cutting across mood disorders (MODs) and schizophrenia spectrum disorders (SSDs). However, its neurobiological profiles remain poorly characterized. The authors examined structural and resting-state functional normative deviations associated with catatonia across two independent clinical cohorts, using hierarchical Bayesian normative modeling.
+
+METHODS : Structural and resting-state functional MRI data were analyzed from two independent deeply phenotyped cohorts of 280 patients with MODs and SSDs. The Mannheim (Germany) sample included 184 patients with MODs or SSDs (58 withcatatonia), and the Bern (Switzerland) sample comprised 96 SSD patients (59 withcatatonia). Individual deviations from normative models were estimated using the PCNToolkit, based on healthy reference datasets (N=57,000 structural; N=22,000 functional).
+
+RESULTS : Catatonia diagnosis was associated with significant ventricular enlargement (third ventricle and left and right lateral ventricles; q&lt;0.05) and cortical thinning in the left dorsal posterior cingulate and insular cortices (q&lt;0.05) across both cohorts. Exploratory analyses identified a significant left orbitofrontal cortex (OFC) difference between MOD and SSD patients with catatonia. In the overall catatonia versus non-catatonia comparison, the OFC association survived false discovery rate correction only in models adjusted for demographic variables. Resting-state functional analyses showed reduced connectivity between sensorimotor, salience, limbic, and executive control networks at the nominal significance level, but did not survive correction for multiple comparisons.
+
+CONCLUSIONS : In the combined sample, catatonia was characterized by ventricular enlargement and cingulo-insular cortical thinning, supporting a transdiagnostic model implicating distributed motor-salience integration circuits. These findings provide reproducible, individual-level evidence for distributed brain network involvement in catatonia and identify candidate regions for future mechanistic and neuromodulation studies.</description>
+    </item>
+    <item>
+      <title>An Approach to Navigating the Lorazepam Challenge Test for Catatonia in Critical Care Settings</title>
+      <link>https://doi.org/10.1177/08850666261491742</link>
+      <guid isPermaLink="false">10.1177/08850666261491742</guid>
+      <pubDate>Thu, 05 Nov 2026 12:00:00 GMT</pubDate>
+      <category>catatonie</category>
+      <category>lorazépam</category>
+      <category>intensive-care-medicine</category>
+      <category>intensive-care-unit</category>
+      <category>critically-ill</category>
+      <description>Catatonia often occurs in the setting of psychiatric illness; however, it is also found in other medical conditions, especially within critical care settings. The lorazepam challenge test (LCT) is a key diagnostic and therapeutic intervention for catatonia; however, no specific guidance exists for patients within the intensive care unit (ICU). This review synthesizes psychiatric and critical care literature to propose a structured LCT framework adapted to the ICU. Specific indications and contraindications across gradients of catatonia likelihood and medical complexity are reviewed, along with practical dosing and monitoring recommendations. An interdisciplinary collaborative workflow is also outlined along with post-LCT documentation standards. Our structured approach offers a practical foundation for future standardized protocols, education, and catatonia research in critical care.</description>
+    </item>
+    <item>
+      <title>Mapping the Mental Status Examination: Insights from a Scoping Review of Popular Psychiatry Textbooks</title>
+      <link>https://doi.org/10.1007/s40596-025-02157-z</link>
+      <guid isPermaLink="false">10.1007/s40596-025-02157-z</guid>
+      <pubDate>Tue, 03 Nov 2026 12:00:00 GMT</pubDate>
+      <category>psychiatrie</category>
+      <category>troubles mentaux</category>
+      <category>mental-status-examination</category>
+      <category>Semiologie</category>
+      <description>OBJECTIVE : This review aims to critically examine the Mental Status Examination (MSE) as presented in contemporary textbooks used for psychiatry training and identify areas of convergence and variability.
+
+METHODS : The authors conducted a comprehensive scoping review comprising expert sampling from top-ranked universities and a gray literature web search. Recommended textbooks available in English and published within the last decade were included. Data extraction focused on the MSE&#39;s conceptualization, structure, and definitions. Variability in the hierarchical organization and terminology was documented, internal and external consistency assessed, and a qualitative synthesis of the data performed.
+
+RESULTS : An analysis of 12 authoritative psychiatry textbooks revealed substantial variability in the MSE&#39;s conceptualization, hierarchies, and definitions across domains, subdomains, and features. Despite agreement on the importance and purpose of the MSE, the sources lacked consensus on the MSE&#39;s fundamental nature, objectivity, and temporal scope, and did not provide explicit theoretical frameworks for their proposed structures. Problematic definitions of key terms and an absence of references to empirical literature were identified. Despite the variability, nine core MSE domains consistently emerged: Appearance, Behavior, Speech, Emotional State, Perception, Thought Process, Thought Content, Cognition, and Insight.
+
+CONCLUSIONS : The findings underscore the need for consensus-building efforts to standardize the MSE, supported by philosophical research and empirical validation of its components. Addressing inconsistencies is crucial to ensure reliable, valid assessments in clinical practice and provide a coherent pedagogical framework for psychiatric training. A standardized MSE would enhance communication among healthcare providers, improve diagnostic accuracy, and facilitate patient care.</description>
+    </item>
+    <item>
+      <title>Multimodal Machine Learning–Based Prediction of Relapse in Major Depressive Disorder</title>
+      <link>https://doi.org/10.1001/jamapsychiatry.2026.3232</link>
+      <guid isPermaLink="false">10.1001/jamapsychiatry.2026.3232</guid>
+      <pubDate>Sun, 01 Nov 2026 12:00:00 GMT</pubDate>
+      <category>dépression majeure</category>
+      <category>dépression</category>
+      <description>IMPORTANCE : Early identification of patients at high risk of relapse is key to personalized preventive strategies in major depressive disorder (MDD). However, current predictive models do not adequately account for the multimodal factors contributing to MDD relapse and fail to provide clinically meaningful predictions.
+
+OBJECTIVE : To predict relapse within 2 years in patients with MDD by using a comprehensive machine learning pipeline that integrates an unprecedented set of multimodal data.
+
+DESIGN, SETTING, AND PARTICIPANTS : This naturalistic longitudinal prognostic study used data from the Marburg-Münster Affective Disorders Cohort Study, with baseline assessments collected from October 2014 to May 2019 and follow-up approximately 2 years later, between October 2016 and June 2021. Data analysis was conducted between July 2024 and June 2026. The study was performed at 2 sites in Germany (Marburg and Münster), with participants recruited from psychiatric inpatient and outpatient departments and the general population. Patients meeting diagnostic criteria for current or lifetime MDD without history of neurological or severe somatic conditions were included.
+
+EXPOSURE : Natural course of illness in patients with MDD.
+
+MAIN OUTCOMES AND MEASURES : Balanced accuracy (BACC) for binary prediction of relapse vs no relapse during 2-year follow-up served as the primary outcome. Baseline features comprised 9 modalities including clinical and psychometric data, 4 structural and functional magnetic resonance imaging modalities, genetics, neurocognition, blood markers, and gut microbiome.
+
+RESULTS : A total of 564 patients with a current or lifetime MDD diagnosis were included (367 female [65.1%]; mean [SD] age, 37.34 [13.38] years). A total of 270 patients relapsed during the 2-year follow-up, while 294 did not. Mean (SD) BACC for the prediction of relapse ranged from 47.21% (5.85%) to 64.43% (6.63%). The best-performing model was solely based on few clinical relapse risk factors, while multimodal data integration did not improve performance.
+
+CONCLUSIONS AND RELEVANCE : In this prognostic study, the models achieved moderate accuracy, yet the results suggest limited scope for guiding individual-level clinical decision-making. Predictive performance was largely driven by established clinical risk factors, indicating limited incremental value of multimodal measures when assessed at a single time point. Future advances may instead benefit from dynamic modeling approaches that more closely align temporally evolving multimodal markers with longitudinal clinical outcomes.</description>
+    </item>
+    <item>
+      <title>La plateforme publique de la Commission de The Lancet Psychiatry sur la santé mentale des femmes.</title>
+      <link>https://miamental.org/</link>
+      <guid isPermaLink="false">https://miamental.org/</guid>
+      <pubDate>Thu, 29 Oct 2026 12:00:00 GMT</pubDate>
+      <category>Femmes</category>
+      <description></description>
+    </item>
+    <item>
+      <title>Effectiveness of amantadine and memantine in catatonia: A retrospective cohort study</title>
+      <link>https://doi.org/10.1177/02698811261495551</link>
+      <guid isPermaLink="false">10.1177/02698811261495551</guid>
+      <pubDate>Thu, 29 Oct 2026 12:00:00 GMT</pubDate>
+      <category>amantadine</category>
+      <category>catatonie</category>
+      <category>memantine</category>
+      <description>BACKGROUND : Catatonia is a neuropsychiatric syndrome involving motor, behavioral, cognitive, and affective dysfunction that is associated with substantial morbidity and mortality. While benzodiazepines and electroconvulsive therapy (ECT) are first-line treatments for catatonia, alternative pharmacologic options are often used when response is inadequate or ECT is unavailable. N-methyl-D-aspartate receptor antagonists, particularly amantadine and memantine, have been used as second-line agents, though evidence remains limited to case reports and small series.
+
+OBJECTIVE : To evaluate the effectiveness of amantadine and memantine in hospitalized adults with catatonia by assessing changes in symptom severity measured by the Bush-Francis Catatonia Rating Scale (BFCRS). We hypothesized that these agents, when used alongside standard treatments, would generate symptom improvement.
+
+METHODS : A retrospective study of adults hospitalized at Massachusetts General Hospital from 2016 to 2024 was conducted. Patients hospitalized with a diagnosis of catatonia who were treated with memantine or amantadine were identified from clinical records. Catatonia severity was measured using clinically documented BFCRS scores. Pre-post BFCRS changes were analyzed using Wilcoxon signed-rank tests, with planned sensitivity analyses.
+
+RESULTS : Fifty-seven patients received amantadine or memantine for catatonia, mostly as adjunctive treatment. One week (±2 days) after initiation, BFCRS total scores decreased by a mean of 4.9 points ( &lt; 0.001, = 0.61). Results remained significant when excluding patients who received ECT during the first week of amantadine or memantine treatment ( = 48; mean change 5.0, &lt; 0.001) and those with ⩾50% lorazepam-equivalent dose increases ( = 39; mean change 4.6, &lt; 0.001).
+
+CONCLUSION : This represents the largest cohort treated with amantadine or memantine for catatonia. Findings suggest significant symptom reduction, supporting their potential role as an adjunctive option. Prospective studies are needed to clarify predictors of response and comparative effectiveness.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,581 @@
+/*
+ * Habillage de l'application de capture.
+ *
+ * Même registre que la maquette B retenue — bibliographie imprimée,
+ * sang-de-bœuf, empattements Constantia — mais les règles de saisie priment
+ * sur l'esthétique : cibles tactiles d'au moins 44 px, champs à 16 px pour
+ * qu'iOS ne zoome pas au focus, et rien qui demande de viser juste. C'est un
+ * formulaire qu'on remplit debout dans un couloir.
+ */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+:root {
+  --papier: #fdfcf9;
+  --encre: #1a1713;
+  --faible: #726b62;
+  --filet: #e3ded4;
+  --accent: #7a2b2b;
+  --alerte: #8a3324;
+  --serif: Constantia, "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --sans: "Segoe UI", Inter, -apple-system, "Helvetica Neue", Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --papier: #15130f;
+    --encre: #eae5db;
+    --faible: #948c80;
+    --filet: #302b23;
+    --accent: #d98b84;
+    --alerte: #e39a8f;
+  }
+}
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--papier);
+  color: var(--encre);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.5;
+  /* Encoche et barre de gestes des téléphones récents. */
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+.ecran {
+  max-width: 34rem;
+  margin: 0 auto;
+  padding: 1.25rem 1.15rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.05rem;
+}
+
+.ecran-centre {
+  min-height: 70vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* ── Titres et en-tête ─────────────────────────────────────────────── */
+
+h1 {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+  margin: 0;
+}
+
+.entete {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 2px solid var(--encre);
+}
+
+.source {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--faible);
+  margin: -0.4rem 0 0;
+}
+
+/* ── Champs ────────────────────────────────────────────────────────── */
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.32rem;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--faible);
+}
+
+.aide-inline { text-transform: none; letter-spacing: 0; font-style: italic; }
+
+input, textarea, select {
+  font-family: var(--sans);
+  /* 16 px exactement : en dessous, iOS zoome sur le champ au focus et casse
+     la mise en page, ce qui coûte plusieurs secondes à chaque capture. */
+  font-size: 16px;
+  line-height: 1.45;
+  color: var(--encre);
+  background: transparent;
+  border: 1px solid var(--filet);
+  border-radius: 0;
+  padding: 0.62rem 0.7rem;
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+textarea { resize: vertical; font-family: var(--serif); font-size: 16px; }
+
+input:focus, textarea:focus, select:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: -1px;
+  border-color: var(--accent);
+}
+
+select {
+  background-image: linear-gradient(45deg, transparent 50%, currentColor 50%),
+                    linear-gradient(135deg, currentColor 50%, transparent 50%);
+  background-position: calc(100% - 1.1rem) 1.15rem, calc(100% - 0.75rem) 1.15rem;
+  background-size: 0.35rem 0.35rem;
+  background-repeat: no-repeat;
+  padding-right: 2.2rem;
+}
+
+.ligne-double { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem; }
+
+.case {
+  flex-direction: row;
+  align-items: center;
+  gap: 0.6rem;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 0.9rem;
+  color: var(--encre);
+  cursor: pointer;
+}
+/* La règle générale ci-dessus retire l'apparence native de tous les champs,
+   pour que les zones de saisie se ressemblent. Sur une case à cocher, cela
+   supprime la coche elle-même : la case restait vide quoi qu'on fasse, et
+   « garder cette fiche entièrement privée » paraissait sans effet — sur
+   téléphone en particulier, où l'on ne voit pas le contour au survol. On lui
+   rend donc son apparence, et une taille qui se vise au doigt. */
+input[type="checkbox"] {
+  -webkit-appearance: auto;
+  appearance: auto;
+  width: 1.3rem;
+  height: 1.3rem;
+  padding: 0;
+  border: 0;
+  accent-color: var(--accent);
+  flex: none;
+}
+
+.case { padding: 0.35rem 0; }
+
+/* ── Boutons ───────────────────────────────────────────────────────── */
+
+button {
+  font-family: var(--sans);
+  font-size: 0.95rem;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.actions { display: flex; gap: 0.7rem; margin-top: 0.4rem; }
+
+.principal {
+  flex: 1;
+  /* 48 px de haut : une cible qu'on atteint sans viser, pouce en marche. */
+  min-height: 3rem;
+  background: var(--accent);
+  color: var(--papier);
+  border: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+.principal:hover { opacity: 0.88; }
+.principal:focus-visible { outline: 2px solid var(--encre); outline-offset: 2px; }
+
+.discret {
+  background: none;
+  border: 0;
+  color: var(--faible);
+  font-size: 1.25rem;
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+  padding: 0;
+}
+.discret:hover { color: var(--accent); }
+
+.lien-discret {
+  background: none;
+  border: 0;
+  color: var(--accent);
+  font-size: 0.85rem;
+  text-align: left;
+  padding: 0.7rem 0;
+  min-height: 2.75rem;
+}
+.lien-discret:hover { text-decoration: underline; text-underline-offset: 2px; }
+
+/* ── Dépôt de PDF ──────────────────────────────────────────────────── */
+
+.separateur {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: var(--faible);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.separateur::before, .separateur::after {
+  content: "";
+  flex: 1;
+  border-top: 1px solid var(--filet);
+}
+
+.zone-pdf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3.5rem;
+  border: 1px dashed var(--filet);
+  color: var(--faible);
+  font-size: 0.85rem;
+  text-transform: none;
+  letter-spacing: 0;
+  cursor: pointer;
+}
+.zone-pdf:hover { border-color: var(--accent); color: var(--accent); }
+
+/* ── Mots-clés ─────────────────────────────────────────────────────── */
+
+fieldset.tags {
+  border: 0;
+  border-top: 1px solid var(--filet);
+  padding: 0.9rem 0 0;
+  margin: 0.3rem 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+legend {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--faible);
+  padding: 0;
+}
+
+.puces { display: flex; flex-wrap: wrap; gap: 0.45rem; }
+
+/* Décocher l'exception plutôt que cocher la règle : les mots-clés centraux
+   arrivent actifs, un appui suffit à les retirer. */
+.puce {
+  min-height: 2.4rem;
+  padding: 0.35rem 0.7rem;
+  background: transparent;
+  border: 1px solid var(--filet);
+  color: var(--faible);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.puce.actif {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--papier);
+}
+.puce:focus-visible { outline: 2px solid var(--encre); outline-offset: 2px; }
+
+/* ── Résumé replié ─────────────────────────────────────────────────── */
+
+details.resume {
+  border-top: 1px solid var(--filet);
+  border-bottom: 1px solid var(--filet);
+  padding: 0.7rem 0;
+}
+details.resume summary {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--faible);
+  cursor: pointer;
+  list-style: none;
+  min-height: 1.75rem;
+}
+details.resume summary::-webkit-details-marker { display: none; }
+details.resume summary::after { content: " +"; }
+details.resume[open] summary::after { content: " −"; }
+details.resume p {
+  font-family: var(--serif);
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--faible);
+  margin: 0.6rem 0 0;
+}
+
+/* ── Messages ──────────────────────────────────────────────────────── */
+
+.aide {
+  font-size: 0.8rem;
+  line-height: 1.45;
+  color: var(--faible);
+  margin: 0;
+}
+
+.erreur, .avertissement {
+  font-size: 0.85rem;
+  line-height: 1.45;
+  margin: 0;
+  padding: 0.65rem 0.8rem;
+  border-left: 3px solid var(--alerte);
+  color: var(--encre);
+}
+.avertissement { border-left-color: var(--faible); color: var(--faible); }
+
+.marqueur {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  border: 1px solid var(--filet);
+  padding: 0.1em 0.4em;
+  margin-right: 0.4em;
+}
+
+.grosse-coche { font-size: 3rem; color: var(--accent); margin: 0; line-height: 1; }
+
+/* ── Attente ───────────────────────────────────────────────────────── */
+
+.spinner {
+  width: 1.75rem;
+  height: 1.75rem;
+  border: 2px solid var(--filet);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: tourner 0.7s linear infinite;
+}
+@keyframes tourner { to { transform: rotate(360deg); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .spinner { animation-duration: 2s; }
+  * { transition-duration: 0.01ms !important; }
+}
+
+/* ── Collection ────────────────────────────────────────────────────── */
+
+.groupe-boutons { display: flex; gap: 0.25rem; }
+
+.liste-fiches {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.fiche {
+  display: flex;
+  align-items: start;
+  gap: 0.75rem;
+  padding: 0.9rem 0;
+  border-top: 1px solid var(--filet);
+}
+.fiche:first-child { border-top: 0; }
+
+.fiche-corps { flex: 1; min-width: 0; }
+
+/* Le style du titre est défini plus bas, avec son comportement de bouton. */
+.fiche-meta,
+.fiche-tags {
+  font-size: 0.73rem;
+  color: var(--faible);
+  margin: 0;
+  line-height: 1.4;
+}
+.fiche-tags { color: var(--accent); margin-top: 0.15rem; }
+
+.etiquette {
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  border: 1px solid var(--filet);
+  padding: 0.05em 0.35em;
+  margin-left: 0.35em;
+}
+
+/* Le « × » de retrait : discret au repos, mais avec une cible tactile d'au
+   moins 44 px, faute de quoi il est intouchable au pouce sur un téléphone. */
+.retirer {
+  flex: none;
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background: none;
+  border: 0;
+  color: var(--faible);
+  cursor: pointer;
+}
+.retirer:hover { color: var(--accent); }
+.retirer:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.confirmation-suppression {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.78rem;
+  color: var(--faible);
+}
+.confirmation-suppression button {
+  font: inherit;
+  min-height: 2.25rem;
+  padding: 0.2rem 0.6rem;
+  background: none;
+  border: 1px solid var(--filet);
+  cursor: pointer;
+  color: inherit;
+}
+.confirmation-suppression .danger { color: var(--accent); border-color: var(--accent); }
+
+/* Passerelle vers le site publié : discrète, mais toujours au même endroit,
+   pour passer de la capture à la lecture sans retenir d'adresse. */
+.pied-outil {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--filet);
+  font-size: 0.78rem;
+}
+.pied-outil a { color: var(--accent); text-underline-offset: 3px; }
+
+/* Le titre d'une fiche est cliquable : c'est par lui qu'on ouvre la
+   correction. Il doit rester lu comme un titre, pas comme un bouton — d'où
+   l'absence de bordure et de fond, mais avec une zone de touche pleine
+   largeur et un retour visuel au survol. */
+.fiche-titre {
+  display: block;
+  width: 100%;
+  text-align: left;
+  font-family: var(--serif);
+  font-size: 0.95rem;
+  line-height: 1.35;
+  margin: 0 0 0.2rem;
+  padding: 0.15rem 0;
+  background: none;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+}
+.fiche-titre:hover { color: var(--accent); }
+.fiche-titre:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* Message de réussite après une correction, affiché dans la liste elle-même
+   plutôt que sur un écran séparé : on corrige rarement une seule fiche. */
+.succes {
+  border-left: 2px solid var(--accent);
+  padding-left: 0.8rem;
+  margin: 0 0 1rem;
+  font-size: 0.82rem;
+  color: var(--accent);
+}
+
+/* Mots-clés existants proches de la saisie. La liste native ne les montre
+   pas : une fois « addictologie » tapé en entier, plus rien ne correspond,
+   alors qu'« addiction » désigne la même chose. */
+.proches {
+  font-size: 0.75rem;
+  color: var(--faible);
+  margin: 0.5rem 0 0;
+}
+.proches[hidden] { display: none; }
+
+.proche {
+  font: inherit;
+  font-size: 0.75rem;
+  color: var(--accent);
+  background: none;
+  border: 0;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0.15rem 0;
+  margin: 0 0.15rem;
+  cursor: pointer;
+}
+.proche:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.actions-empilees {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: stretch;
+}
+
+/* Avis de mise à jour, quand un rechargement automatique ferait perdre une
+   saisie en cours. Posé en bas, hors du flux, pour ne rien recouvrir. */
+.avis-version {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 50;
+  min-height: 3rem;
+  padding: 0.8rem 1rem;
+  background: var(--accent);
+  color: var(--papier);
+  border: 0;
+  font-size: 0.85rem;
+  text-align: center;
+  box-shadow: none;
+}
+
+/* ── Inventaire des mots-clés ──────────────────────────────────────── */
+
+.liste-mots-cles { list-style: none; margin: 0; padding: 0; }
+
+.mot-cle {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  border-top: 1px solid var(--filet);
+}
+.mot-cle:first-child { border-top: 0; }
+.mot-cle.en-edition { display: block; padding: 0.9rem 0; }
+
+.mot-cle-nom {
+  flex: 1;
+  text-align: left;
+  min-height: 2.75rem;
+  background: none;
+  border: 0;
+  color: var(--encre);
+  font-size: 0.92rem;
+  padding: 0;
+  cursor: pointer;
+}
+.mot-cle-nom:hover { color: var(--accent); }
+.mot-cle-nom:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* Chiffres alignés en colonne : on compare des effectifs d'un coup d'œil. */
+.mot-cle-compte {
+  flex: none;
+  font-size: 0.78rem;
+  color: var(--faible);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Champ de mots-clés : le bouton compte autant que la touche Entrée, que les
+   claviers virtuels n'envoient pas toujours. */
+.ligne-tag { display: flex; gap: 0.5rem; align-items: stretch; }
+.ligne-tag input { flex: 1; min-width: 0; }
+
+.ajouter-tag {
+  flex: none;
+  min-width: 3rem;
+  min-height: 2.9rem;
+  font-size: 1.35rem;
+  line-height: 1;
+  background: none;
+  border: 1px solid var(--filet);
+  color: var(--accent);
+}
+.ajouter-tag:hover { border-color: var(--accent); }
+.ajouter-tag:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }

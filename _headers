@@ -1,0 +1,12 @@
+# En-têtes HTTP. GitHub Pages les ignore — il ne sert que des fichiers — mais
+# ce fichier documente les intentions et resservira si l'hébergement bouge.
+#
+# Les paquets portent leur empreinte dans leur nom : leur adresse change à
+# chaque modification, ils peuvent donc être gardés indéfiniment.
+/capture/dist/*
+  Cache-Control: public, max-age=31536000
+
+# L'agent de service ne doit jamais venir d'un cache périmé, sans quoi une
+# mise à jour de l'application n'atteint jamais l'appareil.
+/capture/sw.js
+  Cache-Control: no-cache
